@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <title>소비 지역 데이터</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>소비 지역 데이터</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>지역명</th>
+                <th>매출금액</th>
+                <th>날짜</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in consumption_region_data %}
+            <tr>
+                <td>{{ data.지역명 }}</td>
+                <td>{{ data.매출금액 }}</td>
+                <td>{{ data.date|date:"Y-m-d" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

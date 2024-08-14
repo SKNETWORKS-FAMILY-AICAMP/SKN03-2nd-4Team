@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>제주 방문자 데이터</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>제주 방문자 데이터</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Personal Trip</th>
+                <th>Partial Package</th>
+                <th>Package</th>
+                <th>Leisure</th>
+                <th>Work</th>
+                <th>Recreation</th>
+                <th>Visit Relatives</th>
+                <th>Education</th>
+                <th>Etc</th>
+                <th>Japan</th>
+                <th>Taiwan</th>
+                <th>Singapore</th>
+                <th>Malaysia</th>
+                <th>Indonesia</th>
+                <th>Vietnam</th>
+                <th>Thailand</th>
+                <th>Other Asia</th>
+                <th>USA</th>
+                <th>Western Countries</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in visitor_data %}
+            <tr>
+                <td>{{ data.Date|date:"Y-m-d" }}</td>
+                <td>{{ data.personal_trip }}</td>
+                <td>{{ data.partial_package }}</td>
+                <td>{{ data.package }}</td>
+                <td>{{ data.leisure }}</td>
+                <td>{{ data.work }}</td>
+                <td>{{ data.recreation }}</td>
+                <td>{{ data.visit_rel }}</td>
+                <td>{{ data.edu }}</td>
+                <td>{{ data.etc }}</td>
+                <td>{{ data.JPN }}</td>
+                <td>{{ data.TWN }}</td>
+                <td>{{ data.SGP }}</td>
+                <td>{{ data.MYS }}</td>
+                <td>{{ data.IDN }}</td>
+                <td>{{ data.VNM }}</td>
+                <td>{{ data.THA }}</td>
+                <td>{{ data.ASIA_ETC }}</td>
+                <td>{{ data.USA }}</td>
+                <td>{{ data.WEST_ETC }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

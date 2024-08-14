@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>날씨 데이터</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>날씨 데이터</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>날짜</th>
+                <th>평균기온 (°C)</th>
+                <th>강수량 (mm)</th>
+                <th>풍속 (m/s)</th>
+                <th>상대습도 (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in weather_data %}
+            <tr>
+                <td>{{ data.date|date:"Y-m" }}</td>
+                <td>{{ data.평균기온 }}</td>
+                <td>{{ data.강수량 }}</td>
+                <td>{{ data.풍속 }}</td>
+                <td>{{ data.상대습도 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
