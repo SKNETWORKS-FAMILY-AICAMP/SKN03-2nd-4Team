@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>방문자 지역 데이터</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>방문자 지역 데이터</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>지역</th>
+                <th>방문자 수</th>
+                <th>날짜</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in visitor_region_data %}
+            <tr>
+                <td>{{ data.지역명 }}</td>
+                <td>{{ data.방문객 }}</td>
+                <td>{{ data.date|date:"Y-m" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
