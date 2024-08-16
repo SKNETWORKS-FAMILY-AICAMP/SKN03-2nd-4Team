@@ -10,4 +10,5 @@ urlpatterns = [
     path('visitor_changing/', include('visitor_changing_app.urls')),
     path('consumption_region/', include('consumption_region_app.urls')),
     path('consumption_industry/', include('consumption_industry_app.urls')),
+    path('map/', include('map_app.urls')),
 ]

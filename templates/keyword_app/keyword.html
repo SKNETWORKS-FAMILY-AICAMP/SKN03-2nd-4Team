@@ -2,31 +2,69 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>키워드 데이터</title>
     {% load static %}
+    <title>관광지 키워드 데이터 시각화</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>키워드 데이터</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>관광지</th>
-                <th>지역명</th>
-                <th>날짜</th>
-                <th>카운트</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for data in keyword_data %}
-            <tr>
-                <td>{{ data.관광지 }}</td>
-                <td>{{ data.지역명 }}</td>
-                <td>{{ data.date|date:"Y-m" }}</td>
-                <td>{{ data.count }}</td>
-            </tr>
+    <h1>관광지 키워드 데이터 시각화</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="areaSelect">관광지 선택:</label>
+        <select id="areaSelect" name="areaSelect">
+            {% for area in area_list %}
+                <option value="{{ area }}" {% if area == selected_area %}selected{% endif %}>{{ area }}</option>
             {% endfor %}
-        </tbody>
-    </table>
+        </select>
+        <button type="submit">조회</button>
+    </form>
+    
+    <div id="keyword_chart"></div>
+
+    <script>
+        // Django에서 전달된 데이터
+        var data = JSON.parse('{{ keyworkd_data|escapejs }}');
+
+        // 차트 옵션 설정
+        var options = {
+            series: [{
+                name: '검색량',
+                data: data.map(item => item['검색량'])  // '검색량'을 기준으로 데이터 배열 생성
+            }],
+            chart: {
+                type: 'line',  // 라인 차트
+                height: 350
+            },
+            title: {
+                text: "{{ selected_area }}의 키워드 검색량",
+                align: 'center'
+            },
+            xaxis: {
+                categories: data.map(item => item['date']),  // 날짜 데이터를 x축에 매핑
+                title: {
+                    text: "날짜"
+                }
+            },
+            yaxis: {
+                title: {
+                    text: "검색량"
+                }
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            dataLabels: {
+                enabled: false
+            },
+            markers: {
+                size: 3
+            }
+        };
+
+        // ApexCharts로 차트 생성 및 렌더링
+        var chart = new ApexCharts(document.querySelector("#keyword_chart"), options);
+        chart.render();
+    </script>
 </body>
 </html>
