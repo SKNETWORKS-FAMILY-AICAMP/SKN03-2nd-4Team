@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <title>방문자 변화 데이터</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>방문자 변화 데이터</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>지역명</th>
+                <th>내/외국인</th>
+                <th>날짜</th>
+                <th>방문 인구수</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in visitor_changing_data %}
+            <tr>
+                <td>{{ data.지역명 }}</td>
+                <td>{{ data.내외국인 }}</td>
+                <td>{{ data.date|date:"Y-m-d" }}</td>
+                <td>{{ data.방문인구수 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

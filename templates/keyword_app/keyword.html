@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>키워드 데이터</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>키워드 데이터</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>관광지</th>
+                <th>지역명</th>
+                <th>날짜</th>
+                <th>카운트</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in keyword_data %}
+            <tr>
+                <td>{{ data.관광지 }}</td>
+                <td>{{ data.지역명 }}</td>
+                <td>{{ data.date|date:"Y-m" }}</td>
+                <td>{{ data.count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
