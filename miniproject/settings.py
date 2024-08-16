@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'visitor_changing_app',
     'consumption_region_app',
     'consumption_industry_app',
+    'map_test',
 ]
 
 MIDDLEWARE = [
