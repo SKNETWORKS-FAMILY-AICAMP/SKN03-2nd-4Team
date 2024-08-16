@@ -4,28 +4,88 @@
 <head>
     <meta charset="UTF-8">
     {% load static %}
-    <title>소비 지역 데이터</title>
+    <title>제주 방문자 데이터 시각화</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>소비 지역 데이터</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>지역명</th>
-                <th>매출금액</th>
-                <th>날짜</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for data in consumption_region_data %}
-            <tr>
-                <td>{{ data.지역명 }}</td>
-                <td>{{ data.매출금액 }}</td>
-                <td>{{ data.date|date:"Y-m-d" }}</td>
-            </tr>
+    <form method="post">
+        {% csrf_token %}
+        <select id="areaSelect" name="areaSelect">
+            {% for area in area_list %}
+            <option value="{{ area }}">{{ area }}</option>
             {% endfor %}
-        </tbody>
-    </table>
+        </select>
+        <button type="submit">조회</button>
+    </form>
+    <div id="consumption_region_line"></div>
+    <div id="consumption_region_bar"></div>
+    <script>
+        var options = {
+            series: [
+            ],
+            chart: {
+                height: 350,
+                type: "line"
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: "smooth"
+            },
+            title: {
+                text: "지역별 매출액(억)",
+                align: "center"
+            },
+            makers: {
+                size: 3               
+            },
+            xaxis: {
+                categories: [],
+                title: {
+                    text: "날짜"
+                }
+            },
+            yaxis: {
+                title: {
+                    text: "매출액(억)"
+                }
+            },
+            legend: {
+                show: false,
+                position: "top",
+                horizontalAlign: "right",
+                floating: true
+            }
+        };
+        var data = JSON.parse('{{ consumption_region_data|escapejs }}');
+        console.log(data)
+        var areaList = [];
+        // 데이터수가 i보다 작아질때까지
+        for (i=0; i<data.length; i++) {
+            if (!areaList.includes(data[i]["지역명"])) {
+                areaList.push(data[i]["지역명"])
+                options.series.push({ name: data[i]["지역명"], data: [] })
+            }
+            for (j=0; j<options.series.length; j++) {
+                if (options.series[j]["name"] == data[i]["지역명"]) {
+                    options.series[j]["data"].push(data[i]["매출금액"])
+                }
+            }
+            // date 중복값 제거
+            if (!options.xaxis.categories.includes(data[i]["date"])) {
+                options.xaxis.categories.push(data[i]["date"]);
+            }
+        }
+
+        console.log(options.series);
+
+        var chart_line = new ApexCharts(document.querySelector("#consumption_region_line"), options);
+        chart_line.render();
+        options.chart.type = "bar"
+        var chart_bar = new ApexCharts(document.querySelector("#consumption_region_bar"), options);
+        chart_bar.render();
+    </script>
 </body>
 </html>

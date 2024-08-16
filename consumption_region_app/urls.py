@@ -1,6 +1,7 @@
 from django.urls import path
-from . import views
+from .views import display_consumption_region_data
 
+app_name = 'consumption_region'
 urlpatterns = [
-    path('', views.display_consumption_region_data, name='display_consumption_region_data'),
+    path('', display_consumption_region_data, name='display_consumption_region_data'),
 ]

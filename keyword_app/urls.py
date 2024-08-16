@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import display_keyword_data
 
 urlpatterns = [
-    path('', views.display_keyword_data, name='display_keyword_data'),
+    path('', display_keyword_data, name='display_keyword_data'),
 ]

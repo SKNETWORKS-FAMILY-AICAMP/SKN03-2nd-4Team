@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import display_visitor_changing_data
 
 urlpatterns = [
-    path('', views.display_visitor_changing_data, name='display_visitor_changing_data'),
+    path('', display_visitor_changing_data, name='display_visitor_changing_data'),
 ]
