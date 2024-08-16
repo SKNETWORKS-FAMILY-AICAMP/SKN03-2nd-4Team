@@ -23,25 +23,31 @@ Trandigo
       <td align="center">
         <div>
           <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
-           <a href="https://github.com/{깃헙주소}"><div align=center>팀장 OOO</div></a>
+           <a href="https://github.com/artemIntellectus"><div align=center>팀장 오승민</div></a>
         </div>
       </td>
       <td align="center">
         <div>
           <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
-          <a href="https://github.com/2kilometer"><div align=center>OOO</div></a>
+          <a href="https://github.com/jeehun98"><div align=center>김지훈</div></a>
         </div>
       </td>
       <td align="center">
         <div>
           <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
-            <a href="https://github.com/{깃헙주소}"><div align=center>OOO</div></a>
+          <a href="https://github.com/5-lee"><div align=center>이준석</div></a>
         </div>
       </td>
       <td align="center">
         <div>
           <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
-          <a href="https://github.com/{깃헙주소}"><div align=center>OOO</div></a>
+            <a href="https://github.com/{깃헙주소}"><div align=center>하은진</div></a>
+        </div>
+      </td>
+      <td align="center">
+        <div>
+          <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
+          <a href="https://github.com/Gunayeon"><div align=center>구나연</div></a>
         </div>
       </td>
     </tr>
@@ -52,9 +58,9 @@ Trandigo
 
 ## 2. 프로젝트 개요 
 ### 개발 기간 
-YYYY-MM-DD ~ YYYY-MM-DD
+2024-08-14 ~ 2024-08-19
 ### 프로젝트 명 
-요즘국산차 
+🍊제주도 관광 트렌드 시각화 시스템🍊
 ### 프로젝트 소개 
 '요즘 국산차' 프로젝트는 국내 시장에서의 국산차 선호도 정보를 수집하고 분석하여 사용자에게 최신 트렌드와 선호도를 제공하는 서비스입니다. 이를 통해 소비자는 현 시장 상황을 파악하고, 자신의 필요에 맞는 차량을 선택하는 데 도움을 받을 수 있습니다.
 ### 프로젝트 내용 
