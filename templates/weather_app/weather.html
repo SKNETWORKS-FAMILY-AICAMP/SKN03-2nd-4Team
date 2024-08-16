@@ -1,34 +1,90 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>날씨 데이터</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>제주 방문자 데이터 시각화</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>날씨 데이터</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>날짜</th>
-                <th>평균기온 (°C)</th>
-                <th>강수량 (mm)</th>
-                <th>풍속 (m/s)</th>
-                <th>상대습도 (%)</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for data in weather_data %}
-            <tr>
-                <td>{{ data.date|date:"Y-m" }}</td>
-                <td>{{ data.평균기온 }}</td>
-                <td>{{ data.강수량 }}</td>
-                <td>{{ data.풍속 }}</td>
-                <td>{{ data.상대습도 }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div id="weather_line"></div>
+    <div id="weather_bar"></div>
+    
+    <script>
+        var options = {
+            series: [
+                {
+                    name: "평균기온",
+                    data: []
+                },
+                {
+                    name: "강수량",
+                    data: []
+                },
+                {
+                    name: "풍속",
+                    data: []
+                },
+                {
+                    name: "상대습도",
+                    data: []
+                }
+            ],
+            chart: {
+                height: 350,
+                type: "line"
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: "smooth"
+            },
+            title: {
+                text: "날짜별 날씨",
+                align: "center"
+            },
+            markers: {
+                size: 3
+            },
+            xaxis: {
+                categories: [],
+                title: {
+                    text: "날짜"
+                }
+            },
+            yaxis: {
+                title: {
+                    text: "날씨"
+                }
+            },
+            legend: {
+                position: "top",
+                horizontalAlign: "right",
+                floating: true
+            }
+        };
+
+        var data = JSON.parse('{{ weather_data|escapejs }}');
+
+        // 데이터 수만큼 반복하여 값을 추가
+        for (i = 0; i < data.length; i++) {
+            options.series[0].data.push(data[i]["평균기온"]);
+            options.series[1].data.push(data[i]["강수량"]);
+            options.series[2].data.push(data[i]["풍속"]);
+            options.series[3].data.push(data[i]["상대습도"]);
+
+            // 날짜 추가 (중복 제거)
+            if (!options.xaxis.categories.includes(data[i]["date"])) {
+                options.xaxis.categories.push(data[i]["date"]);
+            }
+        }
+
+        var chart_line = new ApexCharts(document.querySelector("#weather_line"), options);
+        chart_line.render();
+
+        options.chart.type = "bar";
+        var chart_bar = new ApexCharts(document.querySelector("#weather_bar"), options);
+        chart_bar.render();
+    </script>
 </body>
 </html>
