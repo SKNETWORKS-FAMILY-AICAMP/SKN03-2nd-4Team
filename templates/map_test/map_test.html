@@ -3,170 +3,128 @@
 <head>
     <meta charset="UTF-8">
     {% load static %}
-    <title>이미지 위에 여러 버튼 표시</title>
-    <style>
-        .image-container {
-            position: relative;
-            width: 100%; /* 전체 너비로 설정하여 확장 */
-            max-width: 4000px; /* 이미지의 최대 너비를 설정 */
-            height: auto; /* 비율을 유지하면서 높이 자동 조정 */
-            margin: 0 auto; /* 가로 중앙 정렬 */
-        }
-
-        /* 이미지 배경 설정 */
-        #map {
-            width: 100%;
-            padding-bottom: 50%; /* 비율을 유지하기 위한 패딩 */
-            background: url("{% static 'images/jeju/jeju.png' %}") no-repeat center center;
-            background-size: contain; /* 비율을 유지하면서 확대 */
-            position: relative;
-        }
-
-        /* 버튼 스타일 정의 */
-        .map-button {
-            position: absolute;
-            z-index: 1000; /* 이미지 위에 표시되도록 설정 */
-            padding: 5px 10px;
-            background-color: transparent; /* 버튼의 배경을 완전히 투명하게 설정 */
-            color: white; /* 텍스트 색상 */
-            border: none; /* 테두리 제거 */
-            border-radius: 5px;
-            cursor: pointer;
-            opacity: 0; /* 버튼을 완전히 투명하게 만듭니다 */
-        }
-
-        /* 각 버튼 위치 설정 */
-        .button-1 {
-            top: 40%;
-            left: 25%;
-        }
-
-        .button-2 {
-            top: 35%;
-            left: 40%;
-        }
-
-        .button-3 {
-            top: 30%;
-            left: 60%;
-        }
-
-        .button-4 {
-            top: 20%;
-            left: 72%;
-        }
-
-        .button-5 {
-            top: 40%;
-            left: 80%;
-        }
-
-        .button-6 {
-            top: 60%;
-            left: 72%;
-        }
-
-        .button-7 {
-            top: 60%;
-            left: 55%;
-        }
-
-        .button-8 {
-            top: 65%;
-            left: 40%;
-        }
-
-        .button-9 {
-            top: 70%;
-            left: 24%;
-        }
-
-        .button-10 {
-            top: 80%;
-            left: 15%;
-        }
-
-        .button-11 {
-            top: 60%;
-            left: 10%;
-        }
-
-        .button-12 {
-            top: 48%;
-            left: 15%;
-        }
-
-        .button-13 {
-            top: 23%;
-            left: 90%;
-        }
-    </style>
+    <title>제주 방문자 데이터 시각화</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>이미지 위에 여러 버튼 표시</h1>
+    <div class="container">
+        <h1>제주 방문자 데이터 시각화</h1>
+        
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">조회</button>
+        </form>
 
-    <!-- 이미지 컨테이너 -->
-    <div class="image-container">
-        <div id="map">
-            <!-- 버튼들을 이미지 위에 위치 -->
-            <button class="map-button button-1" 
-                    onmouseover="changeImage('hover_image_1.png')" 
-                    onmouseout="resetImage()">버튼 1</button>
-            <button class="map-button button-2" 
-                    onmouseover="changeImage('hover_image_2.png')" 
-                    onmouseout="resetImage()">버튼 2</button>
-            <button class="map-button button-3" 
-                    onmouseover="changeImage('hover_image_3.png')" 
-                    onmouseout="resetImage()">버튼 3</button>
-            <button class="map-button button-4" 
-                    onmouseover="changeImage('hover_image_4.png')" 
-                    onmouseout="resetImage()">버튼 4</button>
-            <button class="map-button button-5" 
-                    onmouseover="changeImage('hover_image_5.png')" 
-                    onmouseout="resetImage()">버튼 5</button>
-            <button class="map-button button-6" 
-                    onmouseover="changeImage('hover_image_6.png')" 
-                    onmouseout="resetImage()">버튼 6</button>
-            <button class="map-button button-7" 
-                    onmouseover="changeImage('hover_image_7.png')" 
-                    onmouseout="resetImage()">버튼 7</button>
-            <button class="map-button button-8" 
-                    onmouseover="changeImage('hover_image_8.png')" 
-                    onmouseout="resetImage()">버튼 8</button>
-            <button class="map-button button-9" 
-                    onmouseover="changeImage('hover_image_9.png')" 
-                    onmouseout="resetImage()">버튼 9</button>
-            <button class="map-button button-10" 
-                    onmouseover="changeImage('hover_image_10.png')" 
-                    onmouseout="resetImage()">버튼 10</button>
-            <button class="map-button button-11" 
-                    onmouseover="changeImage('hover_image_11.png')" 
-                    onmouseout="resetImage()">버튼 11</button>
-            <button class="map-button button-12" 
-                    onmouseover="changeImage('hover_image_12.png')" 
-                    onmouseout="resetImage()">버튼 12</button>
-            <button class="map-button button-13" 
-                    onmouseover="changeImage('hover_image_13.png')" 
-                    onmouseout="resetImage()">버튼 13</button>
-        </div>
+        {% if chart_data %}
+            <h2>월별 방문자 수</h2>
+            <canvas id="lineChart" width="400" height="200"></canvas>
+            <script>
+                const ctx = document.getElementById('lineChart').getContext('2d');
+                const chartData = JSON.parse('{{ chart_data|safe }}');
+                const labels = Object.keys(chartData);
+                const values = Object.values(chartData);
+
+                const lineChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: '월별 방문자 수',
+                            data: values,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 2,
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        onClick: (event, elements) => {
+                            if (elements.length > 0) {
+                                const chartElement = elements[0];
+                                const clickedLabel = lineChart.data.labels[chartElement.index];
+                                updateTable(clickedLabel);
+                            }
+                        }
+                    }
+                });
+
+                function updateTable(clickedLabel) {
+                    {% if full_table_data %}
+                        const fullTableData = JSON.parse('{{ full_table_data|safe }}');
+                        const filteredData = fullTableData.filter(row => row['date'] === clickedLabel);
+                        const tableBody = document.getElementById('data-table-body');
+                        tableBody.innerHTML = '';
+
+                        filteredData.forEach(row => {
+                            const tr = document.createElement('tr');
+                            tr.innerHTML = `
+                                <td>${row['date']}</td>
+                                <td>${row['지역명']}</td>
+                                <td>${row['방문인구수']}</td>
+                            `;
+                            tableBody.appendChild(tr);
+                        });
+                    {% endif %}
+                }
+            </script>
+        {% endif %}
+
+        {% if full_table_data %}
+            <h2>필터링된 데이터</h2>
+            <table border="1" id="data-table">
+                <thead>
+                    <tr>
+                        <th>연-월</th>
+                        <th>지역명</th>
+                        <th>방문인구수</th>
+                    </tr>
+                </thead>
+                <tbody id="data-table-body">
+                    {% for row in full_table_data %}
+                        <tr>
+                            <td>{{ row.date }}</td>
+                            <td>{{ row.지역명 }}</td>
+                            <td>{{ row.방문인구수 }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <h2>지역별 방문자 수 (누적)</h2>
+            <canvas id="barChart" width="400" height="200"></canvas>
+            <script>
+                const barCtx = document.getElementById('barChart').getContext('2d');
+                const regionLabels = fullTableData.map(row => row['지역명']);
+                const visitData = fullTableData.map(row => row['방문인구수']);
+
+                const barChart = new Chart(barCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: regionLabels,
+                        datasets: [{
+                            label: '지역별 방문자 수',
+                            data: visitData,
+                            backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                            borderColor: 'rgba(153, 102, 255, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            </script>
+        {% endif %}
     </div>
-
-    <script>
-        // 이미지 변경 함수
-        function changeImage(imageName) {
-            var baseUrl = "{% static 'images/jeju/' %}";
-            var mapElement = document.getElementById('map');
-            mapElement.style.backgroundImage = "url('" + baseUrl + imageName + "')";
-            mapElement.style.backgroundSize = "contain"; // 이미지 크기를 맞추기 위한 설정
-        }
-
-
-        // 원래 이미지로 리셋 함수
-        function resetImage() {
-            var mapElement = document.getElementById('map');
-            mapElement.style.backgroundImage = "url('{% static 'images/jeju/jeju.png' %}')";
-            mapElement.style.backgroundSize = "contain"; // 이미지 크기를 맞추기 위한 설정
-        }
-    </script>
 </body>
 </html>
