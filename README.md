@@ -2,7 +2,7 @@
 ---
 Trandigo
 
-# 1st-project-sample
+# 2nd-project-sample
 ### 프로그래밍과 데이터 기초 교과목 단위 프로젝트 SR(Software Requirement) 안내 
 **SR(Software Requirement)** 이란 **프로젝트에서의 요구되는 것들이 무엇인지를 구체화 및 문서화하는 것**을 의미합니다. 
 프로젝트에서 구현해야 할 기능에 대해 구성원 전체가 논의하고 기획한 내용을 SR에 작성하도록 합니다.
@@ -14,7 +14,7 @@ Trandigo
 
 
 ## 1. 팀 소개
-### 팀명 : BMW 팀
+### 팀명 : Trandigo 팀
 ### 팀원 소개
 - 멤버 개인 깃허브 계정과 연동
 <table align="center">
