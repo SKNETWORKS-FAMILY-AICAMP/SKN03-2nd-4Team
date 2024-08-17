@@ -1,0 +1,11640 @@
+/* Sidebar */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+gap: 28px;
+
+width: 240px;
+height: 1756px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 208px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px;
+gap: 12px;
+
+width: 208px;
+height: 64px;
+
+background: rgba(255, 255, 255, 0.1);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText
+
+<p>IconText © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 184px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+width: 40px;
+height: 40px;
+
+background: #000000;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ChartPieSlice
+
+graphs, graphing, charts, statistics, circle, analyze, analysis, math &amp; finance
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.37%;
+right: 9.37%;
+top: 9.38%;
+bottom: 9.36%;
+
+background: #FFFFFF;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 132px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 132px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px;
+gap: 12px;
+
+width: 208px;
+height: 64px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 184px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+width: 40px;
+height: 40px;
+
+background: #000000;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* map */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+visibility: hidden;
+left: 12.5%;
+right: 12.5%;
+top: 18.75%;
+bottom: 68.75%;
+
+background: rgba(255, 255, 255, 0.1);
+
+
+/* Icon */
+
+position: absolute;
+width: 19.5px;
+height: 19.5px;
+left: 2.12px;
+top: 1.88px;
+
+border: 1.6px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+visibility: hidden;
+left: 9.38%;
+right: 9.38%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: #FFFFFF;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 132px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 132px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 1168px;
+height: 1756px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 312px;
+isolation: isolate;
+
+width: 1136px;
+min-width: 1000px;
+height: 56px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 364px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Group
+
+<p>Group © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 116px;
+height: 56px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 8px;
+isolation: isolate;
+
+width: 56px;
+height: 56px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 24px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Sidebar
+
+left rail, wireframe, ui, interface, design
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 65.62%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: rgba(255, 255, 255, 0.1);
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.38%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: #FFFFFF;
+
+
+/* Tooltip
+
+<p>Tooltip © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 8px;
+gap: 4px;
+
+position: absolute;
+width: 88px;
+height: 24px;
+left: calc(50% - 88px/2);
+top: calc(50% - 24px/2 + 44px);
+
+/* Black/80% */
+background: rgba(0, 0, 0, 0.8);
+opacity: 0;
+/* BG blur 40 */
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 72px;
+height: 16px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 44px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 20px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(0, 0, 0, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 8px;
+isolation: isolate;
+
+width: 56px;
+height: 56px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 24px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Star
+
+rate, ratings, favorites, favorited, communication
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.35%;
+right: 9.35%;
+top: 9.41%;
+bottom: 12.52%;
+
+background: rgba(255, 255, 255, 0.1);
+
+
+/* Vector */
+
+position: absolute;
+left: 6.23%;
+right: 6.25%;
+top: 6.25%;
+bottom: 9.38%;
+
+background: #FFFFFF;
+
+
+/* Tooltip
+
+<p>Tooltip © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 8px;
+gap: 4px;
+
+position: absolute;
+width: 97px;
+height: 24px;
+left: calc(50% - 97px/2);
+top: calc(50% - 24px/2 + 44px);
+
+/* Black/80% */
+background: rgba(0, 0, 0, 0.8);
+opacity: 0;
+/* BG blur 40 */
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 81px;
+height: 16px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 53px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 20px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(0, 0, 0, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Breadcrumb
+
+<p>Group © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 240px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 123px;
+height: 40px;
+
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 91px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 91px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 5px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 5px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 104px;
+height: 40px;
+
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 72px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 72px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 176px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group
+
+<p>Group © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 176px;
+height: 56px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 8px;
+isolation: isolate;
+
+width: 56px;
+height: 56px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 24px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Sun
+
+day, daytime, daylight, clear, sunny, sunshine, light mode, brightness, lighten, brighten, weather &amp; nature
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: rgba(255, 255, 255, 0.1);
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 3.12%;
+bottom: 3.12%;
+
+background: #FFFFFF;
+
+
+/* Tooltip
+
+<p>Tooltip © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 8px;
+gap: 4px;
+
+position: absolute;
+width: 122px;
+height: 24px;
+left: calc(50% - 122px/2);
+top: calc(50% - 24px/2 + 44px);
+
+/* Black/80% */
+background: rgba(0, 0, 0, 0.8);
+opacity: 0;
+/* BG blur 40 */
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 106px;
+height: 16px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 78px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 20px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(0, 0, 0, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 8px;
+isolation: isolate;
+
+width: 56px;
+height: 56px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 24px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* ClockCounterClockwise
+
+times, timer, alarm, schedule, events, backup, rewind, history, time
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 15.62%;
+right: 15.62%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: rgba(255, 255, 255, 0.1);
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 12.52%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #FFFFFF;
+
+
+/* Tooltip
+
+<p>Tooltip © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 8px;
+gap: 4px;
+
+position: absolute;
+width: 98px;
+height: 24px;
+left: calc(50% - 98px/2);
+top: calc(50% - 24px/2 + 44px);
+
+/* Black/80% */
+background: rgba(0, 0, 0, 0.8);
+opacity: 0;
+/* BG blur 40 */
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 82px;
+height: 16px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 53px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 21px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(0, 0, 0, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 8px;
+isolation: isolate;
+
+width: 56px;
+height: 56px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 24px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Bell
+
+alarm, notifications, times, timer, clock, schedule, events, ringer, calls, system &amp; devices
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 15.64%;
+right: 15.64%;
+top: 12.5%;
+bottom: 25%;
+
+background: rgba(255, 255, 255, 0.1);
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.51%;
+top: 9.38%;
+bottom: 9.38%;
+
+background: #FFFFFF;
+
+
+/* Tooltip
+
+<p>Tooltip © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 8px;
+gap: 4px;
+
+position: absolute;
+width: 118px;
+height: 24px;
+left: calc(50% - 118px/2);
+top: calc(50% - 24px/2 + 44px);
+
+/* Black/80% */
+background: rgba(0, 0, 0, 0.8);
+opacity: 0;
+/* BG blur 40 */
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 102px;
+height: 16px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 72px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(0, 0, 0, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Date */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 11px;
+gap: 5px;
+
+position: absolute;
+width: 123px;
+height: 34px;
+left: 812.5px;
+top: 11px;
+
+background: rgba(120, 120, 128, 0.12);
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Month */
+
+width: 55px;
+height: 22px;
+
+/* Body/Regular */
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.43px;
+
+color: #007AFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Year */
+
+width: 41px;
+height: 22px;
+
+/* Body/Regular */
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.43px;
+
+color: #007AFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card
+
+<p>Card © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 272px;
+min-width: 272px;
+height: 132px;
+
+/* Linear/Brand */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.4) 100%), #0A84FF;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 224px;
+height: 36px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 164px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 164px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+
+width: 44px;
+height: 36px;
+
+/* White/5% */
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ArrowRise
+
+<p>© snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 12.5%;
+top: 25%;
+bottom: 25%;
+
+/* White/100% */
+background: #FFFFFF;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 224px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 158px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 158px;
+height: 40px;
+
+/* 32 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 66px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 66px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Card
+
+<p>Card © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 272px;
+min-width: 272px;
+height: 132px;
+
+/* Linear/Black */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.24) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #FFFFFF;
+background-blend-mode: normal, overlay, multiply;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 224px;
+height: 36px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 164px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 164px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+
+width: 44px;
+height: 36px;
+
+/* White/5% */
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ArrowFall
+
+<p>© snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 9.37%;
+top: 21.88%;
+bottom: 28.12%;
+
+/* White/100% */
+background: #FFFFFF;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 224px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 163px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 163px;
+height: 40px;
+
+/* 32 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 61px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 61px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Card
+
+<p>Card © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 272px;
+min-width: 272px;
+height: 132px;
+
+/* Linear/Brand */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.4) 100%), #0A84FF;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 224px;
+height: 36px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 164px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 164px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+
+width: 44px;
+height: 36px;
+
+/* White/5% */
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ArrowRise
+
+<p>© snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 12.5%;
+top: 25%;
+bottom: 25%;
+
+/* White/100% */
+background: #FFFFFF;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 224px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 152px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 152px;
+height: 40px;
+
+/* 32 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 72px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 72px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Card
+
+<p>Card © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 272px;
+min-width: 272px;
+height: 132px;
+
+/* Linear/Black */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.24) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #FFFFFF;
+background-blend-mode: normal, overlay, multiply;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 224px;
+height: 36px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 164px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 164px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+
+width: 44px;
+height: 36px;
+
+/* White/5% */
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ArrowRise
+
+<p>© snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 12.5%;
+top: 25%;
+bottom: 25%;
+
+/* White/100% */
+background: #FFFFFF;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 224px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 160px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 160px;
+height: 40px;
+
+/* 32 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 64px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 64px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+isolation: isolate;
+
+width: 1136px;
+min-width: 1000px;
+height: 392px;
+
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1088px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Group
+
+<p>Group © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 843px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 51px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 51px;
+height: 28px;
+
+/* 18 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #BF5AF2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 70px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 70px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 144px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 144px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group
+
+<p>Group © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 245px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 109px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 49px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 49px;
+height: 24px;
+
+/* 16 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconSet 2
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ArrowLineDown-s
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 34.38%;
+bottom: 34.37%;
+
+background: rgba(255, 255, 255, 0.4);
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 80px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ChartLine
+
+graphs, graphing, charts, statistics, analyze, analysis, stocks, math &amp; finance
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.24%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: #FFFFFF;
+
+
+/* IconSet 2
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ArrowLineDown-s
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 34.38%;
+bottom: 34.37%;
+
+background: rgba(255, 255, 255, 0.4);
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 40px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ThreeDots
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 43.75%;
+bottom: 43.75%;
+
+background: #FFFFFF;
+
+
+/* Chart 2023
+
+<p>Chart © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 1136px;
+height: 280px;
+left: calc(50% - 1136px/2);
+top: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Left Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 29px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 1136px;
+height: 280px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Horizontal Line
+
+<p>Line © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px 0px 28px;
+gap: 8px;
+
+width: 1136px;
+height: 280px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Line 05
+
+<p>Line chart © snowUI</p>
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0.36%;
+right: 2.86%;
+top: 10%;
+bottom: 0%;
+
+background: radial-gradient(49.06% 49.06% at 50% 16.56%, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 100%);
+
+
+/* Vector */
+
+position: absolute;
+left: 0.36%;
+right: 2.86%;
+top: 10%;
+bottom: 0%;
+
+background: radial-gradient(49.06% 54.41% at 50% 18.37%, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 100%);
+
+
+/* Vertical Line */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 0%;
+
+background: radial-gradient(62.33% 69.13% at 50% 18.37%, #000000 0%, rgba(0, 0, 0, 0) 100%);
+
+
+/* Vertical Line
+
+<p>Line © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* 1 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 2 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 3 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 5 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 6 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 7 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 8 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 10 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 11 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 12 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 13 */
+
+margin: 0 auto;
+width: 280px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.5px solid #BF5AF2;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Line A
+
+<p>Line chart © snowUI</p>
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: radial-gradient(50% 68.44% at 50% 18.37%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #BF5AF2;
+opacity: 0.6;
+
+
+/* Line */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 24.58%;
+
+
+
+/* Dot */
+
+position: absolute;
+left: 85px;
+right: 85px;
+top: 56px;
+bottom: 72px;
+
+
+
+/* ChartDot
+
+<p>© snowUI</p>
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 - 473px);
+top: calc(50% - 20px/2 + 24px);
+
+
+
+/* Ellipse 986 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(201.8deg, rgba(255, 255, 255, 0.05) 8.57%, rgba(255, 255, 255, 0.4) 91.43%), #FFFFFF;
+border: 2px solid #000000;
+/* Drop shadow 2 */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 987 */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #000000;
+
+
+/* ChartDot
+
+<p>© snowUI</p>
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 - 284px);
+top: calc(50% - 20px/2 + 52px);
+
+
+
+/* Ellipse 986 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(201.8deg, rgba(255, 255, 255, 0.05) 8.57%, rgba(255, 255, 255, 0.4) 91.43%), #FFFFFF;
+border: 2px solid #000000;
+/* Drop shadow 2 */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 987 */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #000000;
+
+
+/* ChartDot
+
+<p>© snowUI</p>
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 - 95px);
+top: calc(50% - 20px/2 + 18px);
+
+
+
+/* Ellipse 986 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(201.8deg, rgba(255, 255, 255, 0.05) 8.57%, rgba(255, 255, 255, 0.4) 91.43%), #FFFFFF;
+border: 2px solid #000000;
+/* Drop shadow 2 */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 987 */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #000000;
+
+
+/* ChartDot
+
+<p>© snowUI</p>
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 + 95px);
+top: calc(50% - 20px/2 - 56px);
+
+
+
+/* Ellipse 986 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(201.8deg, rgba(255, 255, 255, 0.05) 8.57%, rgba(255, 255, 255, 0.4) 91.43%), #FFFFFF;
+border: 2px solid #000000;
+/* Drop shadow 2 */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 987 */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #000000;
+
+
+/* ChartDot
+
+<p>© snowUI</p>
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 + 284px);
+top: calc(50% - 20px/2 - 45px);
+
+
+
+/* Ellipse 986 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(201.8deg, rgba(255, 255, 255, 0.05) 8.57%, rgba(255, 255, 255, 0.4) 91.43%), #FFFFFF;
+border: 2px solid #000000;
+/* Drop shadow 2 */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 987 */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #000000;
+
+
+/* ChartDot
+
+<p>© snowUI</p>
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 + 473px);
+top: calc(50% - 20px/2 - 41px);
+
+
+
+/* Ellipse 986 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(201.8deg, rgba(255, 255, 255, 0.05) 8.57%, rgba(255, 255, 255, 0.4) 91.43%), #FFFFFF;
+border: 2px solid #000000;
+/* Drop shadow 2 */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 987 */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #000000;
+
+
+/* Bottom Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 0%;
+bottom: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* 1 */
+
+width: 189.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 2 */
+
+width: 189.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3 */
+
+width: 189.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* 4 */
+
+width: 189.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* 5 */
+
+width: 189.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* 6 */
+
+width: 189.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* Block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+isolation: isolate;
+
+width: 560px;
+min-width: 400px;
+height: 280px;
+
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 512px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 456px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 456px;
+height: 28px;
+
+/* 18 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #0A84FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 40px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ThreeDots
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 43.75%;
+bottom: 43.75%;
+
+background: #FFFFFF;
+
+
+/* Chart 2023
+
+<p>Chart © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 512px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Left Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 29px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 512px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Horizontal Line
+
+<p>Line © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px 0px 28px;
+gap: 8px;
+
+width: 512px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Vertical 11
+
+<p>Bar chart © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px 0px 28px;
+gap: 12px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 37.5%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 25%;
+bottom: 0%;
+
+/* Linear/Brand */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.4) 100%), #0A84FF;
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 62.5%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* Bottom Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 0%;
+bottom: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* 1 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 2 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* 4 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* 5 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* 6 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* Tooltip
+
+<p>Tooltip © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+
+position: absolute;
+width: 78px;
+height: 44px;
+left: 372px;
+top: 75px;
+
+/* Linear/Black */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.24) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #FFFFFF;
+background-blend-mode: normal, overlay, multiply;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 46px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 46px;
+height: 28px;
+
+/* 18 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+/* White/100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+
+width: 560px;
+min-width: 400px;
+height: 280px;
+
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 512px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 456px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 456px;
+height: 28px;
+
+/* 18 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #30D158;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 40px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ThreeDots
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 43.75%;
+bottom: 43.75%;
+
+background: #FFFFFF;
+
+
+/* Chart 2023
+
+<p>Chart © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 512px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Left Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 29px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 512px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Horizontal Line
+
+<p>Line © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px 0px 28px;
+gap: 8px;
+
+width: 512px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Vertical 11
+
+<p>Bar chart © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px 0px 28px;
+gap: 12px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 37.5%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 25%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 62.5%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* VerticalBar 9
+
+<p>Bar chart © snowUI</p>
+*/
+
+width: 75.33px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+
+
+/* Bottom Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 0%;
+bottom: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* 1 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 2 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* 4 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* 5 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* 6 */
+
+width: 75.33px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* Block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+
+width: 1136px;
+min-width: 1000px;
+height: 352px;
+
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1088px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 783px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 783px;
+height: 28px;
+
+/* 18 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FF453A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group
+
+<p>Group © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 289px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Tag
+
+<p>Tag © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 8px 2px 4px;
+
+width: 45px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Dot
+
+<p>© snowUI</p>
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #FFFFFF;
+
+
+/* Tag */
+
+width: 17px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Tag
+
+<p>Tag © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 8px 2px 4px;
+
+width: 79px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Dot
+
+<p>© snowUI</p>
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: rgba(255, 255, 255, 0.4);
+
+
+/* Tag */
+
+width: 51px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Tag
+
+<p>Tag © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 8px 2px 4px;
+
+width: 101px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Dot
+
+<p>© snowUI</p>
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+background: #FF453A;
+
+
+/* Tag */
+
+width: 73px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 40px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ThreeDots
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 43.75%;
+bottom: 43.75%;
+
+background: #FFFFFF;
+
+
+/* Chart 2023
+
+<p>Chart © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1088px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Left Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 29px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 1088px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Horizontal Line
+
+<p>Line © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px 0px 28px;
+gap: 8px;
+
+width: 1088px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Vertical 09
+
+<p>Bar chart © snowUI</p>
+
+<p>Bar chart © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px 0px 28px;
+gap: 8px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 117px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 15px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 17px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 81px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 18px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 15px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 95px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 137px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 18px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 93px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 164px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 23px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 109px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 37px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 43px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 96px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 161px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 113px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 141px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 19px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 13px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 105px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 153px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 19px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 32px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 98px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 25px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 74px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 141px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 18px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 97px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 131px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 20px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 86px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 145px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 30px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 41px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 70px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 147px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 26px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 96px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 33px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 35px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 105px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 149px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 93px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 161px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 15;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 19px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 116px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 16;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 25px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 31px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 117px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 164px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 17;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 32px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 34px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 94px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 212px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 18;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 25px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 38px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 145px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 189px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 19;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 27px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 45px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 113px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 20;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 43px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 109px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 197px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 21;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 47px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 124px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 22;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 30px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 30px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 98px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 130px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 23;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 26px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 76px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 24;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 29px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 20px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 109px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 145px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 25;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 36px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 24px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 81px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 26;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 17px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 45px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 86px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 27;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 13px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 43px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 102px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 174px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 28;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 25px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 42px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 103px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 174px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 29;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 41px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 108px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 159px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 30;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 25px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 26px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 104px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 31;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 48px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 104px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 197px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 32;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 36px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 38px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 119px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 197px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 33;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 17px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 45px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 131px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 34;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 20px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 43px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 110px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 167px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 35;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 23px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 38px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 102px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 145px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 36;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 28px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 16px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 97px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 37;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 26px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 126px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 38;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 19px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 23px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 116px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 148px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 39;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 15px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 20px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 109px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 157px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 40;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 29px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 20px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 104px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 41;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 43px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 109px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 42;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 28px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 43px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 87px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 151px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 43;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 21px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 25px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 101px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 177px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 44;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 27px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 24px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 122px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 147px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 45;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 18px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 22px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 103px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 130px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 46;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 19px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 24px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 83px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Strip */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 22.67px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 47;
+flex-grow: 1;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 15px;
+
+background: #FFFFFF;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 23px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle */
+
+width: 2px;
+height: 94px;
+
+background: #FF453A;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Bottom Text
+
+<p>Text © SnowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 0%;
+bottom: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* 1 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 2 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* 4 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* 5 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* 6 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* 7 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+
+/* 8 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 1;
+
+
+/* 9 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 1;
+
+
+/* 10 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 1;
+
+
+/* 11 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 1;
+
+
+/* 12 */
+
+width: 90.67px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 1;
+
+
+/* Block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+
+width: 1136px;
+min-width: 400px;
+height: 432px;
+
+background: rgba(255, 255, 255, 0.05);
+/* Drop shadow 1 */
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 1;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1088px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 1032px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 1032px;
+height: 28px;
+
+/* 18 Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #63E6E2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Button © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 40px;
+height: 40px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ThreeDots
+
+<p>© snowUI</p>
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 43.75%;
+bottom: 43.75%;
+
+background: #FFFFFF;
+
+
+/* Table */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1088px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 272px;
+min-width: 224px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 4px;
+
+width: 272px;
+height: 40px;
+min-height: 40px;
+
+border-radius: 16px 0px 0px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name badge
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+border-radius: 16px 0px 0px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText
+
+<p>IconText © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 240px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 28px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ByeWind
+
+<p>ByeWind © snowUI</p>
+
+<p>ByeWind</p>
+*/
+
+width: 28px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(ByeWind Avatar.png);
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 204px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 204px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 16px 0px 0px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText
+
+<p>IconText © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 240px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 28px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Female06
+
+<p>Natali Craig © snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Female06.png);
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 204px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 204px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+border-radius: 16px 0px 0px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText
+
+<p>IconText © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 240px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 28px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Male01
+
+<p>Drew Cano © snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Male01.png);
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 204px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 204px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 16px 0px 0px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText
+
+<p>IconText © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 240px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 28px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Male03
+
+<p>Orlando Diggs © snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Male03.png);
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 204px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 204px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+border-radius: 16px 0px 0px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* IconText
+
+<p>IconText © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 240px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* IconSet
+
+<p>IconSet © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 28px;
+height: 28px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Female01
+
+<p>Andi Lane © snowUI</p>
+*/
+
+width: 28px;
+height: 28px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Female01.png);
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 204px;
+height: 20px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text */
+
+width: 204px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 272px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 4px;
+
+width: 272px;
+height: 40px;
+min-height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 272px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 4px;
+
+width: 272px;
+height: 40px;
+min-height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 272px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Text
+
+<p>Text © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 4px;
+
+width: 272px;
+height: 40px;
+min-height: 40px;
+
+border-radius: 0px 16px 16px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 240px;
+height: 16px;
+
+/* 12 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+border-radius: 0px 16px 16px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* StatusBadge
+
+<p>StatusBadge © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 99px;
+height: 28px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #BF5AF2;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* In Progress */
+
+width: 75px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #BF5AF2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 0px 16px 16px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* StatusBadge
+
+<p>StatusBadge © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 88px;
+height: 28px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #30D158;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Complete */
+
+width: 64px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #30D158;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+border-radius: 0px 16px 16px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* StatusBadge
+
+<p>StatusBadge © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 78px;
+height: 28px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #0A84FF;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pending */
+
+width: 54px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #0A84FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 0px 16px 16px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* StatusBadge
+
+<p>StatusBadge © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 88px;
+height: 28px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #FFD60A;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Approved */
+
+width: 64px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: #FFD60A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content
+
+<p>Content © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 272px;
+height: 52px;
+min-height: 40px;
+
+background: rgba(0, 0, 0, 0.2);
+border-radius: 0px 16px 16px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* StatusBadge
+
+<p>StatusBadge © snowUI</p>
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 83px;
+height: 28px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(255, 255, 255, 0.4);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rejected */
+
+width: 59px;
+height: 20px;
+
+/* 14 Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'ss01' on, 'cv01' on;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
