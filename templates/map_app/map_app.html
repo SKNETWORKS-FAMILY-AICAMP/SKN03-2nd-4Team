@@ -1,5 +1,3 @@
-<!-- map_app/templates/map_app/map_app.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +29,7 @@
             padding: 8px 15px;
             font-size: 14px;
             cursor: pointer;
-            transition: background-color 0.3s ease; /* 배경색 전환을 부드럽게 처리 */
+            transition: background-color 0.3s ease;
         }
 
         /* 각 버튼의 위치 설정 */
@@ -61,14 +59,13 @@
             
             /* 팝업 창의 크기 설정 */
             width: 500px; /* 고정된 너비 설정 */
-            height: 500px;
             height: auto; /* 자동 높이 설정 */
             overflow: auto; /* 내용이 넘칠 경우 스크롤바 표시 */
         }
 
         /* 배경 이미지가 보이도록 설정 (크기 및 배치 조정 가능) */
         .map-button:hover {
-            background-size: cover; /* 배경 이미지가 버튼을 덮도록 설정 */
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -104,8 +101,8 @@
             popup.style.display = 'none';
         }
 
-        function handleButtonClick(buttonNumber) {
-            alert('Button ' + buttonNumber + ' clicked!');
+        function navigateToPage(url) {
+            window.location.href = url;
         }
     </script>
 </head>
@@ -115,34 +112,80 @@
             <img id="mainImage" src="{% static 'images/jeju/jeju.png' %}" alt="Map 1">
             
             <!-- 각 버튼에 대응하는 팝업 창들 -->
-            <div id="popup1" class="popup">팝업 내용 1</div>
-            <div id="popup2" class="popup">팝업 내용 2</div>
-            <div id="popup3" class="popup">팝업 내용 3</div>
-            <div id="popup4" class="popup">팝업 내용 4</div>
-            <div id="popup5" class="popup">팝업 내용 5</div>
-            <div id="popup6" class="popup">팝업 내용 6</div>
-            <div id="popup7" class="popup">팝업 내용 7</div>
-            <div id="popup8" class="popup">팝업 내용 8</div>
-            <div id="popup9" class="popup">팝업 내용 9</div>
-            <div id="popup10" class="popup">팝업 내용 10</div>
-            <div id="popup11" class="popup">팝업 내용 11</div>
-            <div id="popup12" class="popup">팝업 내용 12</div>
-            <div id="popup13" class="popup">팝업 내용 13</div>
+            <div id="popup1" class="popup">
+                <p>애월읍</p>
+                {{ df_html1|safe }}
+            </div>
+            <div id="popup2" class="popup">
+                <p>제주시</p>
+                {{ df_html2|safe }}
+            </div>
+            <div id="popup3" class="popup">
+                <p>조천읍</p>
+                {{ df_html3|safe }}
+            </div>
+            <div id="popup4" class="popup">
+                <p>구좌읍</p>
+                {{ df_html4|safe }}
+            </div>
+            <div id="popup5" class="popup">
+                <p>성산읍</p>
+                {{ df_html5|safe }}
+            </div>
+            <div id="popup6" class="popup">
+                <p>표선면</p>
+                {{ df_html6|safe }}
+            </div>
+            <div id="popup7" class="popup">
+                <p>남원읍</p>
+                {{ df_html7|safe }}
+            </div>
+            <div id="popup8" class="popup">
+                <p>서귀포시</p>
+                {{ df_html8|safe }}
+            </div>
+            <div id="popup9" class="popup">
+                <p>안덕면</p>
+                {{ df_html9|safe }}
+            </div>
+            <div id="popup10" class="popup">
+                <p>대정읍</p>
+                {{ df_html10|safe }}
+            </div>
+            <div id="popup11" class="popup">
+                <p>한경면</p>
+                {{ df_html11|safe }}
+            </div>
+            <div id="popup12" class="popup">
+                <p>한림읍</p>
+                {{ df_html12|safe }}
+            </div>
+            <div id="popup13" class="popup">
+                <p>우도면</p>
+                {{ df_html3|safe }}
+            </div>
+            <!-- 다른 팝업 창들... -->
 
-            <!-- 각 버튼이 특정 팝업을 표시 -->
-            <button class="map-button button1" onmouseover="showPopup(this, 'popup1')" onmouseout="hidePopup('popup1')" onclick="handleButtonClick(1)">1</button>
-            <button class="map-button button2" onmouseover="showPopup(this, 'popup2')" onmouseout="hidePopup('popup2')" onclick="handleButtonClick(2)">2</button>
-            <button class="map-button button3" onmouseover="showPopup(this, 'popup3')" onmouseout="hidePopup('popup3')" onclick="handleButtonClick(3)">3</button>
-            <button class="map-button button4" onmouseover="showPopup(this, 'popup4')" onmouseout="hidePopup('popup4')" onclick="handleButtonClick(4)">4</button>
-            <button class="map-button button5" onmouseover="showPopup(this, 'popup5')" onmouseout="hidePopup('popup5')" onclick="handleButtonClick(5)">5</button>
-            <button class="map-button button6" onmouseover="showPopup(this, 'popup6')" onmouseout="hidePopup('popup6')" onclick="handleButtonClick(6)">6</button>
-            <button class="map-button button7" onmouseover="showPopup(this, 'popup7')" onmouseout="hidePopup('popup7')" onclick="handleButtonClick(7)">7</button>
-            <button class="map-button button8" onmouseover="showPopup(this, 'popup8')" onmouseout="hidePopup('popup8')" onclick="handleButtonClick(8)">8</button>
-            <button class="map-button button9" onmouseover="showPopup(this, 'popup9')" onmouseout="hidePopup('popup9')" onclick="handleButtonClick(9)">9</button>
-            <button class="map-button button10" onmouseover="showPopup(this, 'popup10')" onmouseout="hidePopup('popup10')" onclick="handleButtonClick(10)">10</button>
-            <button class="map-button button11" onmouseover="showPopup(this, 'popup11')" onmouseout="hidePopup('popup11')" onclick="handleButtonClick(11)">11</button>
-            <button class="map-button button12" onmouseover="showPopup(this, 'popup12')" onmouseout="hidePopup('popup12')" onclick="handleButtonClick(12)">12</button>
-            <button class="map-button button13" onmouseover="showPopup(this, 'popup13')" onmouseout="hidePopup('popup13')" onclick="handleButtonClick(13)">13</button>
+            <!-- 각 버튼이 특정 팝업을 표시하고 페이지로 이동 -->
+            <button class="map-button button1" onmouseover="showPopup(this, 'popup1')" onmouseout="hidePopup('popup1')" onclick="navigateToPage('/map/new_page1/?value=1')">1</button>
+            <button class="map-button button2" onmouseover="showPopup(this, 'popup2')" onmouseout="hidePopup('popup2')" onclick="navigateToPage('/map/new_page1/?value=2')">2</button>
+            <button class="map-button button3" onmouseover="showPopup(this, 'popup3')" onmouseout="hidePopup('popup3')" onclick="navigateToPage('/map/new_page1/?value=3')">3</button>
+            <button class="map-button button4" onmouseover="showPopup(this, 'popup4')" onmouseout="hidePopup('popup4')" onclick="navigateToPage('/map/new_page1/?value=4')">4</button>
+            <button class="map-button button5" onmouseover="showPopup(this, 'popup5')" onmouseout="hidePopup('popup5')" onclick="navigateToPage('/map/new_page1/?value=5')">5</button>
+            <button class="map-button button6" onmouseover="showPopup(this, 'popup6')" onmouseout="hidePopup('popup6')" onclick="navigateToPage('/map/new_page1/?value=6')">6</button>
+            <button class="map-button button7" onmouseover="showPopup(this, 'popup7')" onmouseout="hidePopup('popup7')" onclick="navigateToPage('/map/new_page1/?value=7')">7</button>
+            <button class="map-button button8" onmouseover="showPopup(this, 'popup8')" onmouseout="hidePopup('popup8')" onclick="navigateToPage('/map/new_page1/?value=8')">8</button>
+            <button class="map-button button9" onmouseover="showPopup(this, 'popup9')" onmouseout="hidePopup('popup9')" onclick="navigateToPage('/map/new_page1/?value=9')">9</button>
+            <button class="map-button button10" onmouseover="showPopup(this, 'popup10')" onmouseout="hidePopup('popup10')" onclick="navigateToPage('/map/new_page1/?value=10')">10</button>
+            <button class="map-button button11" onmouseover="showPopup(this, 'popup11')" onmouseout="hidePopup('popup11')" onclick="navigateToPage('/map/new_page1/?value=11')">11</button>
+            <button class="map-button button12" onmouseover="showPopup(this, 'popup12')" onmouseout="hidePopup('popup12')" onclick="navigateToPage('/map/new_page1/?value=12')">12</button>
+            <button class="map-button button13" onmouseover="showPopup(this, 'popup13')" onmouseout="hidePopup('popup13')" onclick="navigateToPage('/map/new_page1/?value=13')">13</button>
+
+            <script>
+                function navigateToPage(url) {
+                    window.location.href = url;
+                }
+            </script>
         </div>
     </div>
 </body>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Sales Data Chart</title>
+    <!-- ApexCharts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    
+    <h1>제주 지역별 데이터</h1>
+
+    <!-- 이미지 출력 코드 -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="{% static image_url %}" alt="Loaded Image" style="max-width: 100%; height: auto;">
+    </div>
+    <div id="chart"></div>
+
+    <script>
+        // 템플릿에서 전달된 JSON 데이터를 파싱
+        var data = JSON.parse('{{ chart_data3|escapejs }}');
+
+        // 날짜와 방문인구수 데이터를 추출
+        var dates = data.map(item => item.date);
+        var visitorCounts = data.map(item => item.방문인구수);
+
+        var options = {
+            series: [{
+                name: '방문인구수',
+                data: visitorCounts
+            }],
+            chart: {
+                height: 350,
+                type: 'line'
+            },
+            colors: ['#FF5733'],  // 그래프 선 색상 변경
+            title: {
+                text: '방문인구수'
+            },
+            xaxis: {
+                categories: dates,
+                title: {
+                    text: '날짜'
+                }
+            },
+            yaxis: {
+                title: {
+                    text: '방문인구수'
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+
+    <div id="chart"></div>
+
+    <script>
+        // 템플릿에서 전달된 JSON 데이터를 파싱
+        var data = JSON.parse('{{ chart_data|escapejs }}');
+
+        // 날짜와 매출금액 데이터를 추출
+        var dates = data.map(item => item.date);
+        var sales = data.map(item => item.매출금액);
+
+        var options = {
+            series: [{
+                name: 'Sales',
+                data: sales
+            }],
+            chart: {
+                height: 350,
+                type: 'line'
+            },
+            title: {
+                text: '월별 매출액'
+            },
+            xaxis: {
+                categories: dates,
+                title: {
+                    text: 'Date'
+                }
+            },
+            yaxis: {
+                title: {
+                    text: 'Sales Amount (in Million KRW)'
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+
+    <div id="chart"></div>
+
+    <script>
+        // 템플릿에서 전달된 JSON 데이터를 파싱
+        var data = JSON.parse('{{ chart_data2|escapejs }}');
+
+        // 관광지명 별로 데이터를 그룹화
+        var groupedData = {};
+        data.forEach(function(item) {
+            if (!groupedData[item.관광지]) {
+                groupedData[item.관광지] = [];
+            }
+            groupedData[item.관광지].push({ date: item.date, count: item.count });
+        });
+
+        // ApexCharts에 사용할 시리즈 데이터 생성
+        var seriesData = [];
+        for (var 관광지 in groupedData) {
+            var sortedData = groupedData[관광지].sort(function(a, b) {
+                return new Date(a.date) - new Date(b.date);
+            });
+            var dates = sortedData.map(item => item.date);
+            var counts = sortedData.map(item => item.count);
+
+            seriesData.push({
+                name: 관광지,
+                data: counts
+            });
+        }
+
+        var options = {
+            series: seriesData,
+            chart: {
+                height: 350,
+                type: 'line'
+            },
+            title: {
+                text: 'Tourism Count by Location'
+            },
+            xaxis: {
+                categories: dates,
+                title: {
+                    text: 'Date'
+                }
+            },
+            yaxis: {
+                title: {
+                    text: 'Visitor Count'
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+
+<h1>Visitor Data Chart</h1>
+
+<div id="chart"></div>
+
+<script>
+    // 템플릿에서 전달된 JSON 데이터를 파싱
+    var data = JSON.parse('{{ chart_data3|escapejs }}');
+
+    // 관광지명 별로 데이터를 그룹화
+    var groupedData = {};
+    data.forEach(function(item) {
+        if (!groupedData[item.관광지]) {
+            groupedData[item.관광지] = [];
+        }
+        groupedData[item.관광지].push({ date: item.date, count: item.count });
+    });
+
+    // ApexCharts에 사용할 시리즈 데이터 생성
+    var seriesData = [];
+    for (var 관광지 in groupedData) {
+        var sortedData = groupedData[관광지].sort(function(a, b) {
+            return new Date(a.date) - new Date(b.date);
+        });
+        var dates = sortedData.map(item => item.date);
+        var counts = sortedData.map(item => item.count);
+
+        seriesData.push({
+            name: 관광지,
+            data: counts
+        });
+    }
+
+    var options = {
+        series: seriesData,
+        chart: {
+            height: 350,
+            type: 'line'
+        },
+        title: {
+            text: 'Tourism Count by Location'
+        },
+        xaxis: {
+            categories: dates,
+            title: {
+                text: 'Date'
+            }
+        },
+        yaxis: {
+            title: {
+                text: 'Visitor Count'
+            }
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
+</body>
+</html>
