@@ -44,7 +44,11 @@ INSTALLED_APPS = [
     'visitor_changing_app',
     'consumption_region_app',
     'consumption_industry_app',
+<<<<<<< HEAD
     'map_app',
+=======
+    'map_test',
+>>>>>>> origin/dev
 ]
 
 MIDDLEWARE = [
