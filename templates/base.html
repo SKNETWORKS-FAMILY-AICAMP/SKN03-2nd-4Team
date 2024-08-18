@@ -1,0 +1,62 @@
+<!-- mainpage_app/templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Dashboard{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script>
+        var iconChartPlus = "{% static 'images/icon-chart-plus.png' %}";
+        var iconChartMinus = "{% static 'images/icon-chart-minus.png' %}";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- 사이드바 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo">
+                <img src="{% static 'images/logo.png' %}" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">
+                        <img src="{% static 'images/overview-icon.png' %}" alt="Overview Icon" class="menu-icon">
+                        Overview
+                    </a></li>
+                    <li><a href="/map/">
+                        <img src="{% static 'images/map-icon.png' %}" alt="Map Icon" class="menu-icon">
+                        Map
+                    </a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- 메인 콘텐츠 -->
+        <main class="content" id="content">
+            <!-- 헤더 -->
+            <header class="header">
+                <button id="toggleSidebarBtn">☰</button>
+                <div class="breadcrumbs">Dashboards / Overview</div>
+                <div class="header-right">
+                    <div class="date-picker">
+                        <select id="yearPicker"></select>
+                        <select id="monthPicker"></select>
+                        <button id="applyDateBtn">Apply</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 메인 콘텐츠 블록 -->
+            {% block content %}
+            {% endblock %}
+        </main>
+    </div>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

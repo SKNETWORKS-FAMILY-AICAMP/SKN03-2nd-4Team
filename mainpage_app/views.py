@@ -12,7 +12,7 @@ from django.db.models import Sum
 
 # 홈 페이지에서 기본 데이터를 표시하는 뷰
 def home(request):
-    return render(request, "mainpage/home.html")
+    return render(request, "mainpage_app/home.html")
 
 
 def get_previous_month_data(year, month):
