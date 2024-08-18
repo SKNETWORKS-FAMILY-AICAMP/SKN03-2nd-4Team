@@ -1,70 +1,70 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    {% load static %}
-    <title>관광지 키워드 데이터 시각화</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Data</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>관광지 키워드 데이터 시각화</h1>
-    <form method="post">
-        {% csrf_token %}
-        <label for="areaSelect">관광지 선택:</label>
-        <select id="areaSelect" name="areaSelect">
-            {% for area in area_list %}
-                <option value="{{ area }}" {% if area == selected_area %}selected{% endif %}>{{ area }}</option>
-            {% endfor %}
-        </select>
-        <button type="submit">조회</button>
-    </form>
-    
-    <div id="keyword_chart"></div>
 
-    <script>
-        // Django에서 전달된 데이터
-        var data = JSON.parse('{{ keyworkd_data|escapejs }}');
+<h1>키워드 데이터</h1>
 
-        // 차트 옵션 설정
-        var options = {
-            series: [{
-                name: '검색량',
-                data: data.map(item => item['검색량'])  // '검색량'을 기준으로 데이터 배열 생성
-            }],
-            chart: {
-                type: 'line',  // 라인 차트
-                height: 350
-            },
+<!-- 키워드 선택을 위한 폼 -->
+<form method="POST">
+    {% csrf_token %}
+    <label for="keywordSelect">관광지를 선택하세요:</label>
+    <select name="keywordSelect" id="keywordSelect" onchange="this.form.submit()">
+        {% for keyword in keyword_list %}
+        <option value="{{ keyword }}" {% if keyword == selected_keyword %}selected{% endif %}>{{ keyword }}</option>
+        {% endfor %}
+    </select>
+</form>
+
+<!-- 그래프를 표시할 영역 -->
+<div id="chart"></div>
+
+<script>
+    // Django로부터 전달된 JSON 데이터를 파싱
+    var jsonData = JSON.parse('{{ json_data|escapejs }}');
+
+    // 날짜별 키워드 데이터(예: 방문객 수)를 그래프로 표현하기 위해 데이터 가공
+    var dates = jsonData.map(item => item['date']);
+    var values = jsonData.map(item => item['count']);  // '방문자 수'라는 열 이름을 기준으로 데이터 추출
+
+    // ApexCharts를 사용하여 그래프 생성
+    var options = {
+        series: [{
+            name: '방문자 수',
+            data: values
+        }],
+        chart: {
+            height: 350,
+            type: 'line',
+        },
+        xaxis: {
+            categories: dates,
             title: {
-                text: "{{ selected_area }}의 키워드 검색량",
-                align: 'center'
-            },
-            xaxis: {
-                categories: data.map(item => item['date']),  // 날짜 데이터를 x축에 매핑
-                title: {
-                    text: "날짜"
-                }
-            },
-            yaxis: {
-                title: {
-                    text: "검색량"
-                }
-            },
-            stroke: {
-                curve: 'smooth'
-            },
-            dataLabels: {
-                enabled: false
-            },
-            markers: {
-                size: 3
+                text: '날짜'
             }
-        };
+        },
+        yaxis: {
+            title: {
+                text: '방문자 수'
+            }
+        },
+        tooltip: {
+            y: {
+                formatter: function (val) {
+                    return val + "명"
+                }
+            }
+        }
+    };
 
-        // ApexCharts로 차트 생성 및 렌더링
-        var chart = new ApexCharts(document.querySelector("#keyword_chart"), options);
-        chart.render();
-    </script>
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
+
 </body>
 </html>
