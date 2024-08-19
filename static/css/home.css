@@ -273,6 +273,15 @@ body {
     color: #E5E7EB; /* Slightly lighter gray */
 }
 
+/* Link Style for Cards */
+.cards a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the card style */
+}
+
+.cards a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
 
 /* Adjusting the icon container for a smaller icon and semi-transparent background */
 .icon-container {
@@ -301,6 +310,29 @@ body {
     margin-top: 20px; /* Adjust the vertical spacing */
 }
 
+/* 방문자 통계 스타일 */
+.visitor-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* 차트 사이 간격 추가 */
+    margin-top: 16px;
+    margin-bottom: -5px;
+    flex-wrap: nowrap; /* 요소들이 한 줄에 배치되도록 설정 */
+}
+
+/* 방문자 통계 차트 스타일 */
+.visitor-stats .chart-container {
+    flex: 1;
+    min-width: calc(50% - 20px); /* 각 차트가 화면의 절반을 차지하도록 설정 */
+    box-sizing: border-box;
+}
+
+/* 차트 링크를 블록 요소로 처리 */
+.chart-link {
+    display: block; /* a 태그를 블록 요소로 변환 */
+    width: 100%;    /* 부모 컨테이너의 전체 너비를 사용 */
+}
+
 /* 차트 컨테이너 스타일 */
 .chart-container {
     background-color: #2A2A2A;
@@ -308,8 +340,8 @@ body {
     border-radius: 16px;
     margin-bottom: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-    max-width: 93%; /* 차트가 화면 크기를 초과하지 않도록 조정 */
-    overflow-x: auto; /* 가로 스크롤을 방지하기 위해 필요에 따라 스크롤 가능 */
+    max-width: 100%; /* 차트가 화면 크기를 초과하지 않도록 조정 */
+    overflow-x: auto; /* 필요 시 가로 스크롤 가능 */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* 호버 효과를 위한 트랜지션 추가 */
 }
 
@@ -321,25 +353,8 @@ body {
 
 /* 첫 번째 및 네 번째 차트의 크기 조정 */
 .chart-container.full-width {
-    width: 95%; /* 화면의 85% 너비로 조정 */
+    width: 95%; /* 화면의 95% 너비로 조정 */
     margin: 0 auto; /* 차트가 화면 중앙에 오도록 설정 */
-}
-
-/* 방문자 통계 스타일 */
-.visitor-stats {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; /* 차트 사이 간격 추가 */
-    margin-top: 16px;
-    margin-bottom: -5px;
-    flex-wrap: wrap;
-}
-
-/* 방문자 통계 차트 스타일 */
-.visitor-stats .chart-container {
-    flex: 1;
-    min-width: 48%; /* 각 차트가 화면의 절반을 차지하도록 설정 */
-    box-sizing: border-box;
 }
 
 /* 차트 헤더 스타일 */
@@ -349,7 +364,6 @@ body {
     color: #FFFFFF;
     text-align: left; /* 텍스트를 좌측 정렬 */
 }
-
 
 /* 키워드 섹션 컨테이너 */
 .keywords {
