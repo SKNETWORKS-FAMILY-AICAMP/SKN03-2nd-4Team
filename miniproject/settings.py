@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 import os
 from pathlib import Path
+import pymysql
+pymysql.install_as_MySQLdb()
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,12 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-(374=*o+lo*w*56w9(&3w5g$)%o@&ag)%#e9!-_(aye221hdee"
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -87,11 +90,11 @@ WSGI_APPLICATION = "miniproject.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "dashboard_db",  # MySQL에서 생성한 데이터베이스 이름
-        "USER": "dashboard_user",  # MySQL 사용자 이름
-        "PASSWORD": "SecureP@ss123",  # MySQL 사용자 비밀번호
-        "HOST": "localhost",  # 기본적으로 로컬호스트
-        "PORT": "3306",  # MySQL 기본 포트
+        "NAME": "minidatabase", # 데이터베이스 이름 
+        "USER": "admin", # 유저 아이디
+        "PASSWORD": "admin1024", # 유저 비번
+        "HOST": "minidatabase.c7akkiisyb9r.ap-northeast-2.rds.amazonaws.com", # host 주소
+        "PORT": "3306" # port 번호 
     }
 }
 
@@ -130,6 +133,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
+STATIC_ROOT = '/static/'
 STATIC_URL = "static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
