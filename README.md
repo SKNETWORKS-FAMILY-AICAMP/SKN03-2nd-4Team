@@ -127,16 +127,49 @@ Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도
 
 ##  8. 프로젝트 결과 
 - 테스트/ 시연 이미지 삽입
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://media.discordapp.net/attachments/1271032969548664894/1274923399243628605/2024-08-19_11.46.57.png?ex=66c40471&is=66c2b2f1&hm=c5b9d3cca794ba1b5bd8626ac6d1552ddcb771695032a9656e56a53273ec9a68&=&format=webp&quality=lossless&width=881&height=551" alt="Main Screen" style="height: 300px; width: auto;">
+      <br><b>💻메인화면</b>
+    </td>
+    <td style="text-align: center;">
+      <img src="https://media.discordapp.net/attachments/1271032969548664894/1274923399612862509/2024-08-19_11.47.18.png?ex=66c40471&is=66c2b2f1&hm=e2b5cda212d846bebbbc21927252fccc78c52370d0cc44976e6ce0e41b789511&=&format=webp&quality=lossless&width=881&height=551" alt="Keyword Chart" style="height: 300px; width: auto;">
+      <br><b>📈Keyword 별 chart</b>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://media.discordapp.net/attachments/1271032969548664894/1274923399944208426/2024-08-19_11.47.44.png?ex=66c40471&is=66c2b2f1&hm=a39748b4fdb6f601f59e751741489f976b1193d3d9d096c8cb5cc63087bdc6a0&=&format=webp&quality=lossless&width=881&height=551" alt="Visitor Chart" style="height: 300px; width: auto;">
+      <br><b>👥Visitor 별 chart</b>
+    </td>
+    <td style="text-align: center;">
+      <img src="https://cdn.discordapp.com/attachments/1271032969548664894/1274923400384479252/2024-08-19_11.49.00.png?ex=66c40471&is=66c2b2f1&hm=cbc844366cb170ed81c5deb28e34661aa48e04d5fe4f9a5fd53cc19a6f734275&" alt="Consumption Chart" style="height: 300px; width: auto;">
+      <br><b>🪙Consumption chart</b>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://cdn.discordapp.com/attachments/1271032969548664894/1274923400841920543/2024-08-19_11.49.21.png?ex=66c40471&is=66c2b2f1&hm=d6f7787e7aba3ae4c804a7307a9640e6982ea398e66f743f82c48cfa46cbae94&" alt="Jeju Region Map" style="height: 300px; width: auto;">
+      <br><b>🍊제주 지역 표시</b>
+    </td>
+    <td style="text-align: center;">
+      <img src="https://cdn.discordapp.com/attachments/1271032969548664894/1274923401303162943/2024-08-19_11.49.35.png?ex=66c40471&is=66c2b2f1&hm=dabae745ed23f3af48375e2249dda4d9d778e58257fcaa6a78d3537000249b7a&" alt="Regional Data" style="height: 300px; width: auto;">
+      <br><b>🌴지역별 데이터</b>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://cdn.discordapp.com/attachments/1271032969548664894/1274923401625993226/2024-08-19_11.49.42.png?ex=66c40471&is=66c2b2f1&hm=816b08c41656fc209976c79a31734b78efa8edff03faf53b39675eaacac2372a&" alt="Jeju Weather Chart" style="height: 300px; width: auto;">
+      <br><b>🌦️제주 날씨 chart</b>
+    </td>
+    <td style="text-align: center;">
+      <!-- 여기에 추가적인 내용이 있으면 삽입 -->
+    </td>
+  </tr>
+</table>
 
-| 💻메인화면 | 📈Keyword 별 chart | 
-|--|--|
-| ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399243628605/2024-08-19_11.46.57.png?ex=66c40471&is=66c2b2f1&hm=c5b9d3cca794ba1b5bd8626ac6d1552ddcb771695032a9656e56a53273ec9a68&=&format=webp&quality=lossless&width=881&height=551) | ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399612862509/2024-08-19_11.47.18.png?ex=66c40471&is=66c2b2f1&hm=e2b5cda212d846bebbbc21927252fccc78c52370d0cc44976e6ce0e41b789511&=&format=webp&quality=lossless&width=881&height=551) |
-|<b> 👥Visitor 별 chart <b>| <b> 🪙Consumption chart |
-| ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399944208426/2024-08-19_11.47.44.png?ex=66c40471&is=66c2b2f1&hm=a39748b4fdb6f601f59e751741489f976b1193d3d9d096c8cb5cc63087bdc6a0&=&format=webp&quality=lossless&width=881&height=551) | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923400384479252/2024-08-19_11.49.00.png?ex=66c40471&is=66c2b2f1&hm=cbc844366cb170ed81c5deb28e34661aa48e04d5fe4f9a5fd53cc19a6f734275&)
-| <b>🍊제주 지역 표시 | <b>🌴지역별 데이터 |
-| ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923400841920543/2024-08-19_11.49.21.png?ex=66c40471&is=66c2b2f1&hm=d6f7787e7aba3ae4c804a7307a9640e6982ea398e66f743f82c48cfa46cbae94&) | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923401303162943/2024-08-19_11.49.35.png?ex=66c40471&is=66c2b2f1&hm=dabae745ed23f3af48375e2249dda4d9d778e58257fcaa6a78d3537000249b7a&)
-| <b>🌦️제주 날씨 chart | <b> |
-| ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923401625993226/2024-08-19_11.49.42.png?ex=66c40471&is=66c2b2f1&hm=816b08c41656fc209976c79a31734b78efa8edff03faf53b39675eaacac2372a&) | 
+
 
 <br><br><br>
 
