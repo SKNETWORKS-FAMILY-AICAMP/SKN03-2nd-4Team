@@ -117,8 +117,8 @@ Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도
 <br><br><br>
 
 
-## 7. 주요 프로시저
-![image](https://github.com/user-attachments/assets/92f489bb-abaf-4603-a160-b95fe4502661)
+## 7. Architecture
+![alt text](image-3.png)
 
 <br><br><br>
 
@@ -128,11 +128,15 @@ Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도
 ##  8. 프로젝트 결과 
 - 테스트/ 시연 이미지 삽입
 
-| 차량 소비자 증가 그래프 | 국산 차량 브랜드 순위 | 
+| 💻메인화면 | 📈Keyword 별 chart | 
 |--|--|
-| ![image](https://github.com/user-attachments/assets/46fba4e2-9b74-4713-8554-41aeb2e9397d) | ![image](https://github.com/user-attachments/assets/e20005ba-e86b-468d-9f8e-05cdd63a7861) |
-| 상위 차량 브랜드의 모델 | 상위 차량 브랜드 통합 FAQ 조회 시스템 |
-| ![image](https://github.com/user-attachments/assets/2c874e79-2ff6-4bb9-abc8-827d58713949) | ![image](https://github.com/user-attachments/assets/6d74b751-b781-4def-975d-44fdea5b7f18)
+| ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399243628605/2024-08-19_11.46.57.png?ex=66c40471&is=66c2b2f1&hm=c5b9d3cca794ba1b5bd8626ac6d1552ddcb771695032a9656e56a53273ec9a68&=&format=webp&quality=lossless&width=881&height=551) | ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399612862509/2024-08-19_11.47.18.png?ex=66c40471&is=66c2b2f1&hm=e2b5cda212d846bebbbc21927252fccc78c52370d0cc44976e6ce0e41b789511&=&format=webp&quality=lossless&width=881&height=551) |
+|<b> 👥Visitor 별 chart | <b> 🪙Consumption chart |
+| ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399944208426/2024-08-19_11.47.44.png?ex=66c40471&is=66c2b2f1&hm=a39748b4fdb6f601f59e751741489f976b1193d3d9d096c8cb5cc63087bdc6a0&=&format=webp&quality=lossless&width=881&height=551) | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923400384479252/2024-08-19_11.49.00.png?ex=66c40471&is=66c2b2f1&hm=cbc844366cb170ed81c5deb28e34661aa48e04d5fe4f9a5fd53cc19a6f734275&)
+| <b>🍊제주 지역 표시 | <b>🌴지역별 데이터 |
+| ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923400841920543/2024-08-19_11.49.21.png?ex=66c40471&is=66c2b2f1&hm=d6f7787e7aba3ae4c804a7307a9640e6982ea398e66f743f82c48cfa46cbae94&) | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923401303162943/2024-08-19_11.49.35.png?ex=66c40471&is=66c2b2f1&hm=dabae745ed23f3af48375e2249dda4d9d778e58257fcaa6a78d3537000249b7a&)
+| <b>🌦️제주 날씨 chart | <b> |
+| ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923401625993226/2024-08-19_11.49.42.png?ex=66c40471&is=66c2b2f1&hm=816b08c41656fc209976c79a31734b78efa8edff03faf53b39675eaacac2372a&) | 
 
 <br><br><br>
 
@@ -164,20 +168,32 @@ Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도
 <br><br><br>
 
 
-## 10. 오류 해결 과정
-### 페이지 로딩 시간 초과
-- **문제**: 페이지 로딩 시간이 오래 걸려 타임아웃 오류 발생.
-- **해결**: 로딩 시간을 연장하거나, 페이지가 로드되기 전에 필요한 데이터만 우선적으로 로드하도록 수정.
+## 10. 오류 및 어려웠던점 & 해결 과정
+### 데이터 수집 및 분석부분
+- **설명**: 제주 여행 트랜드 분석에 사용될 수 있는 데이터들의 수집,  알맞은 형태로 전처리 후 저장
+- **문제**: 수집된 데이터들이 서로 다른 형식들을 띄고있었기 때문에 데이터가 통합이 되지않았음.
+- **해결**: 다양한 전처리 방식의 사용, 지역명, 날짜 표시 방식의 통일 등의 방법으로 이를 해결할 수 있었음
 
-### API 응답 지연
-- **문제**: 외부 API 응답이 지연되어 데이터 수집에 차질 발생.
-- **해결**: 비동기 요청을 사용하여 API 응답을 기다리는 동안 다른 작업을 수행하도록 개선. 또한, 응답 지연 시 재시도 로직 추가.
+### 데이터베이스 설계 및 적재부분
+- **설명**: 설계된 erd를 바탕으로 mysql에 수집된 데이터들을 적재하는 과정
+- **문제**: 수집된 데이터의 형태와 데이터의 내용이 달라 erd기반으로 데이터베이스에 적재하는과정에서 DB 제약조건에 위반됨.
+- **해결**: 수집된 데이터에서 중복된 컬럼과 조합을 그룹으로 묶어 지우고 전처리하여 데이터를 성공적으로 적재할 수 있었음
 
-### 데이터 저장 시 데이터베이스 연결 오류
-- **문제**: 데이터 저장 과정에서 데이터베이스 연결 오류 발생.
-- **해결**: 연결 타임아웃 시간을 늘리고, 연결 재시도 로직을 추가하여 안정성을 향상.
+### 화면 구성 부분 및 데이터 시각화부분
+1. 차트데이터 필터링문제
+- **설명**: Djnago view 파일과 Templates Html파일 작업, Javascript 코드를 사용해서 Apexcharts 표현해 시각화
+- **문제**: 지역명을 선택하면 그 지역명으로 고정되는것이 아닌 제주시 추자면으로 돌아옴
+- **해결**: POST 요청 시, 사용자가 선택한 지역명을 기반으로 데이터를 처리하도록 코드를 수정했습니다. 구체적으로, Django view 파일에서 POST 요청을 받을 때, 전달된 지역명을 세션에 저장하거나 컨텍스트에 포함시켜 이후 데이터 필터링에 반영
+2. 차트 데이터 동기화 및 시각적 구성
+- **설명**: 차트에 표시되는 데이터의 정확성과 일관성을 유지하기 위해, 백엔드와 프론트엔드 간의 데이터 동기화 작업
+- **문제**: 기존 차트를 파괴하고 새로 생성하는 과정에서 destroy 메서드와 관련된 오류가 발생
+- **해결**: 차트 파괴 및 재생성 로직을 개선.
+3. UI구성 및 레이아웃 조정
+- **설명**: CSS를 활용하여 전반적인 스타일링 개선 및 레이아웃을 조정
+- **문제**: CSS 스타일링과 레이아웃 조정에서 차트와 테이블 간의 간격, 텍스트 정렬, 배경색, 반응형 디자인 적용에 어려움이 있었음.
+- **해결**: 요소 간의 균형을 맞추기 위해 마진, 패딩, 텍스트 정렬 등을 조정했고, 미디어 쿼리를 활용해 다양한 화면 크기에 대응할 수 있도록 했음. 일관된 색상과 폰트 스타일을 적용해 가독성을 향상시키고자 하였음.
 
-
+### aws 배포 부분
 <br><br><br>
 
 
