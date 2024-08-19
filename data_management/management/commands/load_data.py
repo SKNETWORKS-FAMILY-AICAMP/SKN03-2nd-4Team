@@ -26,12 +26,16 @@ def convert_excel_date(excel_date):
 
 def parse_date(date_value):
     """다양한 형식의 날짜를 처리"""
+    print(f"Parsing date: {date_value}")  # 로그 추가
     if isinstance(date_value, (int, float)):
         return convert_excel_date(date_value)
     elif isinstance(date_value, str):
-        for fmt in ("%Y-%m-%d", "%Y-%m-%d %H:%M:%S", "%Y.%m.%d %I:%M:%S %p"):
+        for fmt in ("%Y-%m", "%Y-%m-%d", "%Y-%m-%d %H:%M:%S", "%Y.%m.%d %I:%M:%S %p"):
             try:
-                return datetime.strptime(date_value, fmt).date()
+                parsed_date = datetime.strptime(date_value, fmt)
+                if fmt == "%Y-%m":
+                    return parsed_date.replace(day=1).date()
+                return parsed_date.date()
             except ValueError:
                 continue
         print(f"Invalid date format for value: {date_value}")
