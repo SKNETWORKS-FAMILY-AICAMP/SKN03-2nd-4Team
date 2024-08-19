@@ -131,7 +131,7 @@ Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도
 | 💻메인화면 | 📈Keyword 별 chart | 
 |--|--|
 | ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399243628605/2024-08-19_11.46.57.png?ex=66c40471&is=66c2b2f1&hm=c5b9d3cca794ba1b5bd8626ac6d1552ddcb771695032a9656e56a53273ec9a68&=&format=webp&quality=lossless&width=881&height=551) | ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399612862509/2024-08-19_11.47.18.png?ex=66c40471&is=66c2b2f1&hm=e2b5cda212d846bebbbc21927252fccc78c52370d0cc44976e6ce0e41b789511&=&format=webp&quality=lossless&width=881&height=551) |
-|<b> 👥Visitor 별 chart | <b> 🪙Consumption chart |
+|<b> 👥Visitor 별 chart <b>| <b> 🪙Consumption chart |
 | ![image](https://media.discordapp.net/attachments/1271032969548664894/1274923399944208426/2024-08-19_11.47.44.png?ex=66c40471&is=66c2b2f1&hm=a39748b4fdb6f601f59e751741489f976b1193d3d9d096c8cb5cc63087bdc6a0&=&format=webp&quality=lossless&width=881&height=551) | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923400384479252/2024-08-19_11.49.00.png?ex=66c40471&is=66c2b2f1&hm=cbc844366cb170ed81c5deb28e34661aa48e04d5fe4f9a5fd53cc19a6f734275&)
 | <b>🍊제주 지역 표시 | <b>🌴지역별 데이터 |
 | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923400841920543/2024-08-19_11.49.21.png?ex=66c40471&is=66c2b2f1&hm=d6f7787e7aba3ae4c804a7307a9640e6982ea398e66f743f82c48cfa46cbae94&) | ![image](https://cdn.discordapp.com/attachments/1271032969548664894/1274923401303162943/2024-08-19_11.49.35.png?ex=66c40471&is=66c2b2f1&hm=dabae745ed23f3af48375e2249dda4d9d778e58257fcaa6a78d3537000249b7a&)
@@ -180,20 +180,23 @@ Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도
 - **해결**: 수집된 데이터에서 중복된 컬럼과 조합을 그룹으로 묶어 지우고 전처리하여 데이터를 성공적으로 적재할 수 있었음
 
 ### 화면 구성 부분 및 데이터 시각화부분
-1. 차트데이터 필터링문제
+1. <b>차트데이터 필터링문제</b>
 - **설명**: Djnago view 파일과 Templates Html파일 작업, Javascript 코드를 사용해서 Apexcharts 표현해 시각화
 - **문제**: 지역명을 선택하면 그 지역명으로 고정되는것이 아닌 제주시 추자면으로 돌아옴
 - **해결**: POST 요청 시, 사용자가 선택한 지역명을 기반으로 데이터를 처리하도록 코드를 수정했습니다. 구체적으로, Django view 파일에서 POST 요청을 받을 때, 전달된 지역명을 세션에 저장하거나 컨텍스트에 포함시켜 이후 데이터 필터링에 반영
-2. 차트 데이터 동기화 및 시각적 구성
+2. <b>차트 데이터 동기화 및 시각적 구성</b>
 - **설명**: 차트에 표시되는 데이터의 정확성과 일관성을 유지하기 위해, 백엔드와 프론트엔드 간의 데이터 동기화 작업
 - **문제**: 기존 차트를 파괴하고 새로 생성하는 과정에서 destroy 메서드와 관련된 오류가 발생
 - **해결**: 차트 파괴 및 재생성 로직을 개선.
-3. UI구성 및 레이아웃 조정
+3. <b>UI구성 및 레이아웃 조정</b>
 - **설명**: CSS를 활용하여 전반적인 스타일링 개선 및 레이아웃을 조정
 - **문제**: CSS 스타일링과 레이아웃 조정에서 차트와 테이블 간의 간격, 텍스트 정렬, 배경색, 반응형 디자인 적용에 어려움이 있었음.
 - **해결**: 요소 간의 균형을 맞추기 위해 마진, 패딩, 텍스트 정렬 등을 조정했고, 미디어 쿼리를 활용해 다양한 화면 크기에 대응할 수 있도록 했음. 일관된 색상과 폰트 스타일을 적용해 가독성을 향상시키고자 하였음.
 
 ### aws 배포 부분
+- **설명**: aws DB생성 및 서버생성 후 배포
+- **문제**: CSS 스타일링과 레이아웃 조정에서 차트와 테이블 간의 간격, 텍스트 정렬, 배경색, 반응형 디자인 적용에 어려움이 있었음.
+- **해결**: 요소 간의 균형을 맞추기 위해 마진, 패딩, 텍스트 정렬 등을 조정했고, 미디어 쿼리를 활용해 다양한 화면 크기에 대응할 수 있도록 했음. 일관된 색상과 폰트 스타일을 적용해 가독성을 향상시키고자 하였음.
 <br><br><br>
 
 
