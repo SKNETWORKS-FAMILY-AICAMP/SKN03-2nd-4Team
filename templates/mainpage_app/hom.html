@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script>
+        var iconChartPlus = "{% static 'images/icon-chart-plus.png' %}";
+        var iconChartMinus = "{% static 'images/icon-chart-minus.png' %}";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- 사이드바 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo">
+                <img src="{% static 'images/logo.png' %}" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">
+                        <img src="{% static 'images/overview-icon.png' %}" alt="Overview Icon" class="menu-icon">
+                        Overview
+                    </a></li>
+                    <li><a href="/map/">
+                        <img src="{% static 'images/map-icon.png' %}" alt="Map Icon" class="menu-icon">
+                        Map
+                    </a></li>
+                    <li><a href="/weather/">
+                        <img src="{% static 'images/weather-icon.png' %}" alt="Weather Icon" class="menu-icon">
+                        Weather
+                    </a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- 메인 콘텐츠 -->
+        <main class="content" id="content">
+            <!-- 헤더 -->
+            <header class="header">
+                <button id="toggleSidebarBtn">☰</button>
+                <div class="breadcrumbs">Dashboards / Overview</div>
+                <div class="header-right">
+                    <div class="date-picker">
+                        <select id="yearPicker"></select>
+                        <select id="monthPicker"></select>
+                        <button id="applyDateBtn">Apply</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 오버뷰 카드 -->
+            <div class="cards">
+                <a href="/visitor_region/" class="card active" id="visits-card">
+                    <h3>Visitors (all)</h3>
+                    <div class="value-container">
+                        <span class="value">{{ visits }}</span>
+                        <span class="change">{{ visits_change }}</span>
+                    </div>
+                    <div class="icon-container">
+                        <img src="{% static 'images/icon-chart-plus.png' %}" alt="Icon" class="icon">
+                    </div>
+                </a>
+                <a href="/visitor_changing/" class="card" id="visitors-domestic-card">
+                    <h3>Visitors (domestic)</h3>
+                    <div class="value-container">
+                        <span class="value">{{ visitors_domestic }}</span>
+                        <span class="change">{{ visitors_domestic_change }}</span>
+                    </div>
+                    <div class="icon-container">
+                        <img src="{% static 'images/icon-chart-plus.png' %}" alt="Icon" class="icon">
+                    </div>
+                </a>
+                <a href="/visitor_jeju/" class="card" id="visitors-overseas-card">
+                    <h3>Visitors (overseas)</h3>
+                    <div class="value-container">
+                        <span class="value">{{ visitors_overseas }}</span>
+                        <span class="change">{{ visitors_overseas_change }}</span>
+                    </div>
+                    <div class="icon-container">
+                        <img src="{% static 'images/icon-chart-plus.png' %}" alt="Icon" class="icon">
+                    </div>
+                </a>
+                <a href="/consumption_region/" class="card" id="sales-amount-card">
+                    <h3>Sales Amount (억)</h3>
+                    <div class="value-container">
+                        <span class="value">{{ sales_amount }}</span>
+                        <span class="change">{{ sales_amount_change }}</span>
+                    </div>
+                    <div class="icon-container">
+                        <img src="{% static 'images/icon-chart-plus.png' %}" alt="Icon" class="icon">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 차트 및 기타 콘텐츠 -->
+            <!-- 첫 번째 차트 -->
+            <a href="/visitor_region/">
+                <div class="chart-container full-width">
+                    <canvas id="visitsChart"></canvas>
+                </div>
+            </a>
+
+            <!-- 방문자 통계 차트 -->
+            <div class="visitor-stats">
+                <!-- 두 번째 차트 (가로로 배치) -->
+                <a href="/visitor_changing/" class="chart-link">
+                    <div class="chart-container">
+                        <canvas id="visitorsByProvinceChart"></canvas>
+                    </div>
+                </a>
+
+                <!-- 세 번째 차트 (가로로 배치) -->
+                <a href="/visitor_jeju/" class="chart-link">
+                    <div class="chart-container">
+                        <canvas id="visitorsByCountryChart"></canvas>
+                    </div>
+                </a>
+            </div>
+
+            <!-- 네 번째 차트 -->
+            <a href="/consumption_industry/">
+                <div class="chart-container full-width">
+                    <canvas id="salesAmountChart"></canvas>
+                </div>
+            </a>
+
+            <!-- 키워드 섹션 -->
+            <a href="/keyword/">
+                <div class="keywords">
+                    <h4>Keywords</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Keyword</th>
+                                <th>City</th>
+                                <th>Date</th>
+                                <th>Count</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 여기에 JavaScript로 상위 5개 키워드 데이터를 삽입 -->
+                        </tbody>
+                    </table>
+                </div>
+            </a>
+        </main>
+    </div>
+    <script src="{% static 'js/main.js' %}"></script> <!-- 추가된 JS 파일을 포함 -->
+</body>
+</html>
