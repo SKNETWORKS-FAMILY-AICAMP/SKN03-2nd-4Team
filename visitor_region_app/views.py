@@ -6,7 +6,7 @@ import json
 def display_visitor_region_data(request):
     # 엑셀 파일의 경로 설정
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    excel_file = os.path.join(BASE_DIR, 'data/vistor_region_data.xlsx')
+    excel_file = os.path.join(BASE_DIR, 'data/visitor_region_data.xlsx')
     
     # pandas를 사용하여 엑셀 파일 읽기
     df = pd.read_excel(excel_file)
