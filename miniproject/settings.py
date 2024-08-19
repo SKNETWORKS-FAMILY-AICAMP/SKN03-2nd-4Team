@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     "mainpage_app",
     "data_management",
     "map_app",
-    "map_test",
 ]
 
 MIDDLEWARE = [

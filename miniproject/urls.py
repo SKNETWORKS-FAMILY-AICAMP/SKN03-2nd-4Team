@@ -12,5 +12,4 @@ urlpatterns = [
     path("consumption_region/", include("consumption_region_app.urls")),
     path("consumption_industry/", include("consumption_industry_app.urls")),
     path("map/", include("map_app.urls")),
-    path("map_test/", include("map_test.urls")),
 ]
