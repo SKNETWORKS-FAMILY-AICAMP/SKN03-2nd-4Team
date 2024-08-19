@@ -21,31 +21,31 @@ Trandigo
     <tr>
       <td align="center">
         <div>
-          <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
+          <img src="https://static.ebs.co.kr/images/public/lectures/2014/06/19/10/bhpImg/44deb98d-1c50-4073-9bd7-2c2c28d65f9e.jpg"width="100px;"height="100px;" alt=""/>
            <a href="https://github.com/artemIntellectus"><div align=center>팀장 오승민</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
+          <img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723212878_bxr2reBk9w.jpg"width="100px;"height="100px;" alt=""/>
           <a href="https://github.com/jeehun98"><div align=center>김지훈</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
+          <img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723513396_kp9fgpCfTO.jpg"width="100px;"height="100px;" alt=""/>
           <a href="https://github.com/5-lee"><div align=center>이준석</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
+          <img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723572507_BOtiBfIuyL.jpg"width="100px;"height="100px;" alt=""/>
             <a href="https://github.com/{깃헙주소}"><div align=center>하은진</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="이미지 주소 경로"width="100px;"height="100px;" alt=""/>
+          <img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723588618_dphGgSgOAp.jpg"width="100px;"height="100px;" alt=""/>
           <a href="https://github.com/Gunayeon"><div align=center>구나연</div></a>
         </div>
       </td>
@@ -85,32 +85,32 @@ Trandigo
 
 
 ## 4. 기술 스텍
-| Data Modeling | DB | Front-End |
-|-------------|--------|-------------|
-| ![BeautifulSoup](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![requests](https://img.shields.io/badge/requests-3776AB?style=for-the-badge&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![folium](https://img.shields.io/badge/folium-77B829?style=for-the-badge&logo=folium&logoColor=white) 
+| Data Modeling | DB | Front-End |   Back-End   | Deployment
+|------------|--------|-------------|------------|----------|
+| ![BeautifulSoup](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![OpenApi](https://img.shields.io/badge/Docs-OpenAPI%203.0-success?style=flat-square) ![requests](https://img.shields.io/badge/requests-3776AB?style=for-the-badge&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![html](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white) ![css](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white) ![JavaScript](https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=black) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)|![aws](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 <br><br><br>
 
 
 
 ## 5. 요구사항 명세서
-사용자 요구사항 정의서는 고객의 요청 사항을 실제 개발에 적용할 수 있는 수준으로 요구사항을 재정의하여 기술한 문서입니다. 사용자 요구사항 정의서를 통해 프로젝트의 범위가 규정되어 불필요한 기능 개발로 인한 시간 및 자원 낭비를 방지하고 추후 프로젝트의 결과물을 회고하는 자료가 되기도 합니다. 
-<br>[요구사항 명세서 템플릿 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
-<br>![image](https://github.com/user-attachments/assets/9b6ca273-2688-49d6-a517-7a1145f5018c)<br>
-- 요구사항 ID : 요구사항별로 유일한 ID를 부여하여 기입합니다.<br>
-- 요구사항명 : 도출된 요구사항을 요약할 수 있는 명칭을 기입합니다.<br>
-- 구분 : 도출된 요구사항을 기능 / 성능 / 품질 / 인터페이스 / 데이터 / 운영 / 제약사항 중에서 선택하여 기재합니다.<br>
-- 요구사항 설명 : 사용자 요구사항을 구체적이고 상세하게 기술합니다.<br>
-- 중요도 : 해당 요구사항의 전체 시스템 구현 측면에서의 중요도를 기술합니다. (상, 중, 하)<br>
-- 비고 : 항목에 포함되지 않으나, 고려해야 할 사항이 있으면 기술합니다.<br>
+요구사항 명세서는 프로젝트의 기능을 중요도에 따라 구분하고, 세부적으로 구현해야 할 기능들을 우선순위에 따라 배치합니다. 이를 통해 프로젝트를 보다 효율적으로 진행할 수 있도록 설계되었습니다. 저희 <b>Trandigo</b>는 이러한 방식으로 기능별 우선순위를 매겨 프로젝트를 보다 체계적으로 관리할 수 있었습니다.
+<br>![요구사항명세서](image-2.png)
+
+- 요구사항 ID : 요구사항별로 유일한 ID를 부여하여 기입합니다. 저희는 프로젝트의 포괄적인 기능 별로 ID를 정의하였습니다.<br>
+
+- 기능구분 : 도출된 요구사항을 간략하게 요약하여 기입하였습니다.<br>
+
+- 중요도 : 해당 요구사항의 전체 시스템 구현 측면에서의 중요도를 기술하였습니다. (상, 중, 하)<br>
+- 요구사항 상세 설명 : 기능이름에 더하여 부가적으로 기능을 구체적으로 기술하였습니다.<br>
 
 
 <br><br><br>
 
 ## 6. ERD 설계서
-ERD는 실체(Entity), 관계(Relationship), 속성(Attribute) 간의 관계를 그래픽으로 표현한 다이어그램입니다.<br> ERD의 주된 목적은 데이터베이스의 논리적 구조를 시각화하여, 데이터와 이들 간의 관계를 쉽게 이해하고 분석할 수 있도록 돕는 것입니다. <br>주로 데이터베이스 설계의 초기 단계에서 사용되며, 요구사항 분석과 개념적 설계 과정에서 중요한 역할을 합니다. <br> 또한 ERD는 엔터티 간의 관계, 엔터티가 가지는 속성, 기본 키(Primary Key) 등 데이터의 논리적 관계에 대한 정보를 제공합니다.<br>
-<br>[ ERD 설계서 템플릿 예시](https://www.erdcloud.com/d/TzHsgqxPRGzWGzytR)
-<br>![image](https://github.com/user-attachments/assets/f16d790a-460d-4aec-bc43-4fdf53e6b071)
+Trandigo 프로젝트의 ERD(Entity-Relationship Diagram) 설계서는 제주도 관광 데이터 분석 시스템의 데이터 구조를 시각적으로 표현한 다이어그램입니다.<br> 이 설계서는 다양한 관광 관련 데이터를 효율적으로 관리하고 분석하기 위해, 각 데이터 간의 관계와 구조를 명확하게 정의합니다. <br> ERD 설계를 통해 관광객의 방문 목적, 연령대, 소비 패턴 등 복잡한 데이터를 체계적으로 관리하고, 이를 기반으로 추가적인 기능도 구현할 수 있습니다. <br>
+
+<br>![image](https://iartemis.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Feb64ff85-d7b7-4bac-a14e-309950f8d308%2F04e67daa-863d-4a85-bbf4-1813fa86752d%2Fimage.png?table=block&id=25eb7ccf-c519-4e36-be0f-55d4d09558d0&spaceId=eb64ff85-d7b7-4bac-a14e-309950f8d308&width=1190&userId=&cache=v2)
 
 
 

@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     "consumption_industry_app",
     "mainpage_app",
     "data_management",
-    "map_app"
+    "map_app",
 ]
 
 MIDDLEWARE = [

@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-data_management/
-mainpage_app/
 venv/
 *.pyc
 __pycache__/
-=======
 .venv
 venv
-__pycache__/
 migraions/
 migraions/*
->>>>>>> feat-web_design
