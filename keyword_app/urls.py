@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import display_keyword_data
+from . import views
 
 urlpatterns = [
-    path('', display_keyword_data, name='display_keyword_data'),
+    path('', views.display_keyword_data, name='index'),
 ]

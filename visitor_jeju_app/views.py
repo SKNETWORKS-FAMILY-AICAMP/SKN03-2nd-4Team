@@ -1,40 +1,32 @@
-from django.shortcuts import render
 import pandas as pd
 import os
-from datetime import datetime
 import json
-from .forms import DateForm
+from django.shortcuts import render
 
 def display_visitor_data(request):
+    # 엑셀 파일의 경로 설정
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     excel_file = os.path.join(BASE_DIR, 'data/visitor_jeju_data.xlsx')
     
-    df = pd.read_excel(excel_file, sheet_name='tourist_data')
-    df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m')
-    df['YearMonth'] = df['Date'].dt.strftime('%Y-%m')
+    # pandas를 사용하여 엑셀 파일 읽기
+    df = pd.read_excel(excel_file)
 
-    chart_data = None
-    full_table_data = None
-    if request.method == 'POST':
-        form = DateForm(request.POST)
-        if form.is_valid():
-            start_date_str = form.cleaned_data['start_date']
-            end_date_str = form.cleaned_data['end_date']
+    # 엑셀 파일에서 실제 열 이름을 사용합니다 (예: "날짜", "personal_trip").
+    df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+    
+    # 날짜 형식 변환
+    df["Date"] = df["Date"].dt.strftime("%Y-%m")
 
-            start_date = datetime.strptime(start_date_str, '%Y-%m')
-            end_date = datetime.strptime(end_date_str, '%Y-%m')
-            
-            filtered_df = df[(df['Date'] >= start_date) & (df['Date'] <= end_date)]
-            grouped = filtered_df.groupby('YearMonth')['personal_trip'].sum()
-            chart_data = grouped.to_dict()
+    # 필요한 데이터만 추출
+    df_filtered = df[["Date", "personal_trip"]]
 
-            # 전체 데이터를 JSON으로 변환하여 템플릿으로 전달
-            full_table_data = filtered_df.copy()
-            full_table_data['Date'] = full_table_data['Date'].dt.strftime('%Y-%m-%d')
-            full_table_data = full_table_data.to_dict(orient='records')
-
-    return render(request, 'visitor_jeju_app/visitor_jeju.html', {
-        'form': form,
-        'chart_data': json.dumps(chart_data),  # 템플릿에 JSON으로 전달
-        'full_table_data': json.dumps(full_table_data)  # 템플릿에 JSON으로 전달
-    })
+    # 데이터를 JSON으로 변환
+    visitor_data = df_filtered.to_dict(orient="records")
+    visitor_data_json = json.dumps(visitor_data)
+    
+    # 템플릿에 데이터 전달
+    return render(request, 'visitor_jeju_app/visitor_jeju.html', 
+                  {
+                      'json_data': visitor_data_json
+                  }
+                 )

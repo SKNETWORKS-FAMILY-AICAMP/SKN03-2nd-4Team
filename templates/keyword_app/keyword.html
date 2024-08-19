@@ -1,32 +1,70 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>키워드 데이터</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>키워드 데이터</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>관광지</th>
-                <th>지역명</th>
-                <th>날짜</th>
-                <th>카운트</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for data in keyword_data %}
-            <tr>
-                <td>{{ data.관광지 }}</td>
-                <td>{{ data.지역명 }}</td>
-                <td>{{ data.date|date:"Y-m" }}</td>
-                <td>{{ data.count }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+
+<h1>키워드 데이터</h1>
+
+<!-- 키워드 선택을 위한 폼 -->
+<form method="POST">
+    {% csrf_token %}
+    <label for="keywordSelect">관광지를 선택하세요:</label>
+    <select name="keywordSelect" id="keywordSelect" onchange="this.form.submit()">
+        {% for keyword in keyword_list %}
+        <option value="{{ keyword }}" {% if keyword == selected_keyword %}selected{% endif %}>{{ keyword }}</option>
+        {% endfor %}
+    </select>
+</form>
+
+<!-- 그래프를 표시할 영역 -->
+<div id="chart"></div>
+
+<script>
+    // Django로부터 전달된 JSON 데이터를 파싱
+    var jsonData = JSON.parse('{{ json_data|escapejs }}');
+
+    // 날짜별 키워드 데이터(예: 방문객 수)를 그래프로 표현하기 위해 데이터 가공
+    var dates = jsonData.map(item => item['date']);
+    var values = jsonData.map(item => item['count']);  // '방문자 수'라는 열 이름을 기준으로 데이터 추출
+
+    // ApexCharts를 사용하여 그래프 생성
+    var options = {
+        series: [{
+            name: '방문자 수',
+            data: values
+        }],
+        chart: {
+            height: 350,
+            type: 'line',
+        },
+        xaxis: {
+            categories: dates,
+            title: {
+                text: '날짜'
+            }
+        },
+        yaxis: {
+            title: {
+                text: '방문자 수'
+            }
+        },
+        tooltip: {
+            y: {
+                formatter: function (val) {
+                    return val + "명"
+                }
+            }
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
+
 </body>
 </html>

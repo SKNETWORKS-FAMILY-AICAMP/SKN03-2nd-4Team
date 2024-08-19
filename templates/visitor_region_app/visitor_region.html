@@ -1,31 +1,70 @@
-{% load static %}
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>방문자 지역 데이터</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Region Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>방문자 지역 데이터</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>지역</th>
-                <th>방문자 수</th>
-                <th>날짜</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for data in visitor_region_data %}
-            <tr>
-                <td>{{ data.지역명 }}</td>
-                <td>{{ data.방문객 }}</td>
-                <td>{{ data.date|date:"Y-m" }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+
+<h1>방문객 데이터</h1>
+
+<!-- 시군구 선택을 위한 폼 -->
+<form method="POST">
+    {% csrf_token %}
+    <label for="sigunguSelect">시군구를 선택하세요:</label>
+    <select name="sigunguSelect" id="sigunguSelect" onchange="this.form.submit()">
+        {% for sigungu in sigungu_list %}
+        <option value="{{ sigungu }}" {% if sigungu == selected_sigungu %}selected{% endif %}>{{ sigungu }}</option>
+        {% endfor %}
+    </select>
+</form>
+
+<!-- 그래프를 표시할 영역 -->
+<div id="chart"></div>
+
+<script>
+    // Django로부터 전달된 JSON 데이터를 파싱
+    var jsonData = JSON.parse('{{ json_data|escapejs }}');
+
+    // 날짜별 방문객 수를 그래프로 표현하기 위해 데이터 가공
+    var dates = jsonData.map(item => item['date']);
+    var visitors = jsonData.map(item => item['방문객']);
+
+    // ApexCharts를 사용하여 그래프 생성
+    var options = {
+        series: [{
+            name: '방문객 수',
+            data: visitors
+        }],
+        chart: {
+            height: 350,
+            type: 'line',
+        },
+        xaxis: {
+            categories: dates,
+            title: {
+                text: '날짜'
+            }
+        },
+        yaxis: {
+            title: {
+                text: '방문객 수'
+            }
+        },
+        tooltip: {
+            y: {
+                formatter: function (val) {
+                    return val + "명"
+                }
+            }
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
+
 </body>
 </html>
